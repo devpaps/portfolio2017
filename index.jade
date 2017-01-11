@@ -1,0 +1,144 @@
+doctype html
+html(lang='en')
+  head
+    title Lars Jönsson * Front-End Developer
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    <!-- Latest compiled and minified CSS -->
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous")
+    link(href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet")
+    link(rel='stylesheet', href='assets/css/main.css')
+
+
+  body
+    .wrapper
+      header
+        .collector.navbar
+          nav#mySidenav.sidenav
+            span.closebtn(onclick="closeNav()") &times;
+            a(href="#Home") Home
+            a(href="#About") About
+            a(href="#Work") Work
+            a(href="#Testamonials") Testamonials
+            a(href="#Services") Services
+          span#open(onclick='openNav()') Menu
+
+        .hero-img
+          .container
+            h1.myName Lars Jönsson
+            h4.frontEnd Front-End developer
+            .social-media-icons
+              a(href="#")
+                img(src="/assets/img/codepen.png", alt="codepen")
+              a(href="#")
+                img(src="/assets/img/github.png", alt="github")
+              a(href="#")
+                img(src="/assets/img/linkedin.png", alt="codepen")
+              a(href="#")
+                img(src="/assets/img/instagram.png", alt="instagram")
+              a(href="#")
+                img(src="/assets/img/twitter.png", alt="twitter")
+
+      .container
+        section.about.row
+          .picture-me.col-md-6.col-sm-6.col-xs-12
+          article.col-md-6.col-sm-6.col-xs-12
+            h3 A Little About Me
+            .line
+            p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam itaque, eos unde sequi totam maiores accusamus. Aspernatur deleniti aliquam voluptatem dicta similique. Voluptate ut doloremque eligendi, rem veniam necessitatibus.
+
+
+      section.gallery.container
+        h4 What I've Done
+        p This Is Where I Can Guarantee My Skills
+
+        .row
+          .col-md-4.col-sm-4
+            a.popupimage(href="/assets/img/image.jpeg")
+              img.thumbnail(src="/assets/img/image.jpeg", alt="")
+          .col-md-4.col-sm-4
+            a.popupimage(href="/assets/img/image.jpeg")
+              img.thumbnail(src="/assets/img/image.jpeg", alt="")
+          .col-md-4.col-sm-4
+            a.popupimage(href="/assets/img/image.jpeg")
+              img.thumbnail(src="/assets/img/image.jpeg", alt="")
+        .row
+          .col-md-4.col-sm-4
+            a.popupimage(href="/assets/img/image.jpeg")
+              img.thumbnail(src="/assets/img/image.jpeg", alt="")
+          .col-md-4.col-sm-4
+            a.popupimage(href="/assets/img/image.jpeg")
+              img.thumbnail(src="/assets/img/image.jpeg", alt="")
+          .col-md-4.col-sm-4
+            a.popupimage(href="/assets/img/image.jpeg")
+              img.thumbnail(src="/assets/img/image.jpeg", alt="")
+
+            .modal.fade
+              .modal-dialog
+                .modal-content
+                  img(src="")
+
+
+      section.testamonials.container
+        #text-carousel.carousel.slide(data-ride='carousel')
+          ol.carousel-indicators
+            li.active(data-target='#text-carousel', data-slide-to='0')
+            li(data-target='#text-carousel', data-slide-to='1')
+            li(data-target='#text-carousel', data-slide-to='2')
+          .row
+            .container
+              .carousel-inner(role="listbox")
+                .item.active
+                  .carousel-content
+                    .container.text-testamonials
+                      h3 Sofie Blom
+                      p He is a wunderful human
+                .item
+                  .carousel-content
+                    .container.text-testamonials
+                      p
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, sint fuga temporibus nam saepe delectus expedita vitae magnam necessitatibus dolores tempore consequatur dicta cumque repellendus eligendi ducimus placeat!
+                .item
+                  .carousel-content
+                    .container.text-testamonials
+                      p
+                        | Sapiente, ducimus, voluptas, mollitia voluptatibus nemo explicabo sit blanditiis laborum dolore illum fuga veniam quae expedita libero accusamus quas harum ex numquam necessitatibus provident deleniti tenetur iusto officiis recusandae corporis culpa quaerat?
+
+
+      section.container-fluid.tools
+        row.sass
+          .col-lg-3.col-md-3.col-sm-6.col-xs-12
+            img(src="/assets/img/sass.png", alt="sass")
+        row.pug.kk
+          .col-lg-3.col-md-3.col-sm-6.col-xs-12
+            img(src="/assets/img/pug.svg", alt="pug/jade")
+        row.jquery.kk
+          .col-lg-3.col-md-3.col-sm-6.col-xs-12
+            img(src="/assets/img/jquery.png", alt="jquery")
+        row.javascript.kk
+          .col-lg-3.col-md-3.col-sm-6.col-xs-12
+            img(src="/assets/img/js.png", alt="javascript")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")
+script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous")
+script(src='assets/js/functions.js')
