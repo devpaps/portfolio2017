@@ -44,7 +44,7 @@ html(lang='en')
         section.about.row
           .picture-me.col-md-6.col-sm-6.col-xs-12
           article.col-md-6.col-sm-6.col-xs-12
-            h3 A Little About Me
+            h4 A Little About Me
             .line
             p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam itaque, eos unde sequi totam maiores accusamus. Aspernatur deleniti aliquam voluptatem dicta similique. Voluptate ut doloremque eligendi, rem veniam necessitatibus.
 
@@ -81,6 +81,7 @@ html(lang='en')
 
 
       section.testamonials.container
+        h4 What others think
         #text-carousel.carousel.slide(data-ride='carousel')
           ol.carousel-indicators
             li.active(data-target='#text-carousel', data-slide-to='0')
@@ -92,7 +93,7 @@ html(lang='en')
                 .item.active
                   .carousel-content
                     .container.text-testamonials
-                      h3 Sofie Blom
+                      h4 Sofie Blom
                       p He is a wunderful human
                 .item
                   .carousel-content
@@ -106,19 +107,21 @@ html(lang='en')
                         | Sapiente, ducimus, voluptas, mollitia voluptatibus nemo explicabo sit blanditiis laborum dolore illum fuga veniam quae expedita libero accusamus quas harum ex numquam necessitatibus provident deleniti tenetur iusto officiis recusandae corporis culpa quaerat?
 
 
-      section.container-fluid.tools
-        row.sass
-          .col-lg-3.col-md-3.col-sm-6.col-xs-12
-            img(src="/assets/img/sass.png", alt="sass")
-        row.pug.kk
-          .col-lg-3.col-md-3.col-sm-6.col-xs-12
-            img(src="/assets/img/pug.svg", alt="pug/jade")
-        row.jquery.kk
-          .col-lg-3.col-md-3.col-sm-6.col-xs-12
-            img(src="/assets/img/jquery.png", alt="jquery")
-        row.javascript.kk
-          .col-lg-3.col-md-3.col-sm-6.col-xs-12
-            img(src="/assets/img/js.png", alt="javascript")
+      section.container.tools
+        h4 The tools that i use
+        .container
+          row.sass.icons
+            .col-lg-3.col-md-3.col-sm-6.col-xs-12
+              img(src="/assets/img/sass.png", alt="sass")
+          row.pug.icons
+            .col-lg-3.col-md-3.col-sm-6.col-xs-12
+              img(src="/assets/img/pug.svg", alt="pug/jade")
+          row.jquery.icons
+            .col-lg-3.col-md-3.col-sm-6.col-xs-12
+              img(src="/assets/img/jquery.png", alt="jquery")
+          row.javascript.icons
+            .col-lg-3.col-md-3.col-sm-6.col-xs-12
+              img(src="/assets/img/js.png", alt="javascript")
 
 
 
