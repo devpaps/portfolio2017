@@ -634,6 +634,9 @@ input[type="button"] {
   width: 100%;
   left: 0; }
 
+.container-fluid {
+  padding: 0px; }
+
 /***************Navigation****************/
 .collector {
   background: rgba(255, 255, 255, 0.7);
@@ -668,8 +671,8 @@ input[type="button"] {
     color: #333;
     display: block;
     transition: 0.3s; }
-  .sidenav a:hover, .sidenav .offcanvas a:focus {
-    color: #999; }
+    .sidenav a:hover, .sidenav a .offcanvas a:focus {
+      color: #999; }
   .sidenav .sidenav, .sidenav .closebtn {
     margin-left: 21rem;
     font-size: 3.5rem;
@@ -690,12 +693,12 @@ span#open {
   max-width: 100%;
   height: 100vh;
   background-size: cover;
-  background: url("/assets/img/1.jpg") center no-repeat;
-  display: block; }
+  background: url("/assets/img/sky.jpeg") center no-repeat;
+  background-size: cover; }
   .hero-img .container {
-    padding-left: 3rem;
-    margin-top: 15rem;
-    top: 40%;
+    position: relative;
+    left: 5%;
+    top: 30%;
     display: inline-block; }
     .hero-img .container .myName {
       color: #fff;
@@ -801,15 +804,6 @@ span#open {
         margin-top: 5rem; } }
 
 /****************Services****************/
-.size {
-  height: 130px; }
-
-.place {
-  position: relative;
-  display: inline-block;
-  bottom: 20px;
-  left: 750px; }
-
 .services .services-text h4, .services .services-text p {
   text-align: center; }
 
@@ -821,17 +815,3 @@ span#open {
   width: 100%;
   color: #fff;
   z-index: -1; }
-
-.services .blue p {
-  margin: 15px 0 0 20px;
-  display: inline-block; }
-
-.services .blue .ribbon {
-  display: inline-block;
-  z-index: 1; }
-
-.services .green span {
-  margin-left: 600px; }
-
-.services .green .ribbon {
-  left: 30px; }
