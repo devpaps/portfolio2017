@@ -10,10 +10,9 @@ function closeNav() {
 }
 
 
-$(document).ready(function(){
-  $('.popupimage').click(function(event){
-    event.preventDefault();
-    $('.modal img').attr('src', $(this).attr('href'));
-    $('.modal').modal('show');
-  });
-});
+var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });

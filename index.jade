@@ -108,7 +108,7 @@ html(lang='en')
 
       section.container.tools
         h4 The tools that i use
-        .container.col-md-3
+        .container.col-lg-12
           .sass.icons
             .col-lg-3
               img(src="/assets/img/sass.png", alt="sass")
@@ -128,39 +128,54 @@ html(lang='en')
         .services-text
           h4 My Services
           p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        .container.col-lg-12.seo
+          .row
+            .col-md-6.icon
+              p IMG
+            .col-md-6.text
+              p Text
+
+        .container.col-lg-12.responsive
+          .row
+            .col-md-6.text
+              p Text
+            .col-md-6.icon
+              p IMG
+
+        .container.col-lg-12.code
+          .row
+            .col-md-6.icon
+              p IMG
+            .col-md-6.text
+              p Text
+
+        .container.col-lg-12.design
+          .row
+            .col-md-6.text
+              p Text
+            .col-md-6.icon
+              p IMG
+
+      section.container.contact
+        .contact-text
+          h4 Get In Touch
+          p I’m are here to help You. Want to learn more about my services? Or you got an awesome idea, dont hesitate to share it with me. I'll sure make it come true.
         .container
           .row
-            .col-md-12
-              .black-bar.blue
-                span SEO
-                
-          .row
-            .col-md-12
-              .black-bar.green
-                  span Responsive Layout
-          .row
-            .col-md-12
-              .black-bar.purple
-                span Modern Design
+            .col-lg-6
+              h1 hello
+              p.lead This is where my map will be
 
-          .row
-            .col-md-12
-              .black-bar.turquoise
-                  span Good Code
-
-
-
-
-
-
-
-
-
-
+              #map
 
 
 
 
 script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")
+
 script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous")
+
+script(async defer src='https://maps.googleapis.com/maps/api/js?key=AAIzaSyA65bLkk5e-qaF_hQTPifxxeTlV7XWRKrc&callback=initMap, async defer)
+
+
 script(src='assets/js/functions.js')

@@ -804,14 +804,23 @@ span#open {
         margin-top: 5rem; } }
 
 /****************Services****************/
-.services .services-text h4, .services .services-text p {
-  text-align: center; }
+.services .services-text {
+  margin: 5rem 0 5rem; }
+  .services .services-text h4, .services .services-text p {
+    text-align: center; }
 
-.services .black-bar {
-  background: #383838;
-  margin: 5rem 0;
-  padding: 0;
-  height: 88px;
-  width: 100%;
-  color: #fff;
-  z-index: -1; }
+.services .row .icon {
+  background: transparent;
+  text-align: center; }
+  .services .row .icon img {
+    width: 50px; }
+
+.services .row .text {
+  background: green; }
+
+/****************Contact****************/
+.contact .contact-text {
+  margin: auto;
+  text-align: center;
+  margin-top: 10rem;
+  width: 50%; }
