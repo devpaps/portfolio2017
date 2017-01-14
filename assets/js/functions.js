@@ -10,9 +10,15 @@ function closeNav() {
 }
 
 
-var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-        });
+function initMap() {
+  var östersund = {lat: 63.1741871, lng: 14.5595061};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 10,
+    center: östersund,
+    disableDefaultUI: true
+  });
+  var marker = new google.maps.Marker({
+    position: östersund,
+    map: map
+  });
+}

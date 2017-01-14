@@ -162,11 +162,33 @@ html(lang='en')
           p I’m are here to help You. Want to learn more about my services? Or you got an awesome idea, dont hesitate to share it with me. I'll sure make it come true.
         .container
           .row
-            .col-lg-6
-              h1 hello
-              p.lead This is where my map will be
-
+            .col-lg-6.map
               #map
+            .col-lg-6.contact-text
+            form.form-horizontal
+              fieldset
+                // Form Name
+                legend Form Name
+                // Text input
+                .form-group
+                  label.col-md-6.control-label(for='textinput') Email*
+                  .col-md-6
+                    input#textinput.form-control.input-md(name='textinput', type='text', placeholder='Whats your email address?', required='')
+                // Text input
+                .form-group
+                  label.col-md-6.control-label(for='textinput') Name*
+                  .col-md-6
+                    input#textinput.form-control.input-md(name='textinput', type='text', placeholder='What is your name?', required='')
+                // Textarea
+                .form-group
+                  label.col-md-6.control-label(for='textarea') Message*
+                  .col-md-6
+                    textarea#textarea.form-control(name='textarea') Whats on your mind?
+                // Button
+                .form-group
+                  label.col-md-6.control-label(for='submitButton')
+                  .col-md-6
+                    button#submitButton.btn.btn-info(name='submitButton') Send
 
 
 
@@ -175,7 +197,7 @@ script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")
 
 script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous")
 
-script(async defer src='https://maps.googleapis.com/maps/api/js?key=AAIzaSyA65bLkk5e-qaF_hQTPifxxeTlV7XWRKrc&callback=initMap, async defer)
+script(async='', defer='', src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDr0p_-clW9KPpMF01xEAOh36UR-DfLeSY&callback=initMap')
 
 
 script(src='assets/js/functions.js')

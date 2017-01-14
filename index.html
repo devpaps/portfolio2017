@@ -160,11 +160,44 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-6">
-              <h1>hello</h1>
-              <p class="lead">This is where my map will be</p>
+            <div class="col-lg-6 map">
               <div id="map"></div>
             </div>
+            <div class="col-lg-6 contact-text"></div>
+            <form class="form-horizontal">
+              <fieldset>
+                <!-- Form Name-->
+                <legend>Form Name</legend>
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-6 control-label" for="textinput">Email*</label>
+                  <div class="col-md-6">
+                    <input class="form-control input-md" id="textinput" name="textinput" type="text" placeholder="Whats your email address?" required="">
+                  </div>
+                </div>
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-6 control-label" for="textinput">Name*</label>
+                  <div class="col-md-6">
+                    <input class="form-control input-md" id="textinput" name="textinput" type="text" placeholder="What is your name?" required="">
+                  </div>
+                </div>
+                <!-- Textarea-->
+                <div class="form-group">
+                  <label class="col-md-6 control-label" for="textarea">Message*</label>
+                  <div class="col-md-6">
+                    <textarea class="form-control" id="textarea" name="textarea">Whats on your mind?</textarea>
+                  </div>
+                </div>
+                <!-- Button-->
+                <div class="form-group">
+                  <label class="col-md-6 control-label" for="submitButton"></label>
+                  <div class="col-md-6">
+                    <button class="btn btn-info" id="submitButton" name="submitButton">Send</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
           </div>
         </div>
       </section>
@@ -173,5 +206,5 @@
 </html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AAIzaSyA65bLkk5e-qaF_hQTPifxxeTlV7XWRKrc" type="text/javascript"></script>
+<script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDr0p_-clW9KPpMF01xEAOh36UR-DfLeSY&amp;callback=initMap"></script>
 <script src="assets/js/functions.js"></script>
