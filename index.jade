@@ -4,6 +4,9 @@ html(lang='en')
     title Lars Jönsson * Front-End Developer
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="description" content="Marcus Olsson är en frilansande webbutvecklare och webbdesigner i Borås. Erbjuder produktion av webbsidor, applikationer, nyhetsbrev och mycket annat.")
+    meta(name="theme-color" content="#db5945")
     <!-- Latest compiled and minified CSS -->
     link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
     link(href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet")
@@ -48,33 +51,33 @@ html(lang='en')
             p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam itaque, eos unde sequi totam maiores accusamus. Aspernatur deleniti aliquam voluptatem dicta similique. Voluptate ut doloremque eligendi, rem veniam necessitatibus.
 
 
-      section.gallery.container
+      section.gallerys.container-fluid
         h4 What I've Done
         p This Is Where I Can Guarantee My Skills
-
-        .row
-          .col-md-4.col-sm-4
-            a.popupimage(href="/assets/img/image.jpeg")
-              img.thumbnail(src="/assets/img/image.jpeg", alt="")
-          .col-md-4.col-sm-4
-            a.popupimage(href="/assets/img/image.jpeg")
-              img.thumbnail(src="/assets/img/image.jpeg", alt="")
-          .col-md-4.col-sm-4
-            a.popupimage(href="/assets/img/image.jpeg")
-              img.thumbnail(src="/assets/img/image.jpeg", alt="")
-        .row
-          .col-md-4.col-sm-4
-            a.popupimage(href="/assets/img/image.jpeg")
-              img.thumbnail(src="/assets/img/image.jpeg", alt="")
-          .col-md-4.col-sm-4
-            a.popupimage(href="/assets/img/image.jpeg")
-              img.thumbnail(src="/assets/img/image.jpeg", alt="")
-          .col-md-4.col-sm-4
-            a.popupimage(href="/assets/img/image.jpeg")
-              img.thumbnail(src="/assets/img/image.jpeg", alt="")
+        .container
+          .row
+            .col-md-4.col-sm-4
+              a.popupimage(href="/assets/img/image.jpeg")
+                img.thumbnail(src="/assets/img/image.jpeg", alt="")
+            .col-md-4.col-sm-4
+              a.popupimage(href="/assets/img/image.jpeg")
+                img.thumbnail(src="/assets/img/image.jpeg", alt="")
+            .col-md-4.col-sm-4
+              a.popupimage(href="/assets/img/image.jpeg")
+                img.thumbnail(src="/assets/img/image.jpeg", alt="")
+          .row
+            .col-md-4.col-sm-4
+              a.popupimage(href="/assets/img/image.jpeg")
+                img.thumbnail(src="/assets/img/image.jpeg", alt="")
+            .col-md-4.col-sm-4
+              a.popupimage(href="/assets/img/image.jpeg")
+                img.thumbnail(src="/assets/img/image.jpeg", alt="")
+            .col-md-4.col-sm-4
+              a.popupimage(href="/assets/img/image.jpeg")
+                img.thumbnail(src="/assets/img/image.jpeg", alt="")
 
             .modal.fade
-              .modal-dialog
+              .modal-dialog.modal-lg
                 .modal-content
                   img(src="")
 
@@ -107,7 +110,7 @@ html(lang='en')
 
 
       section.container.tools
-        h4 The tools that i use
+        h4 The tools that i use daily in my development environment
         .container.col-lg-12
           .sass.icons
             .col-lg-3
@@ -162,35 +165,10 @@ html(lang='en')
           p I’m are here to help You. Want to learn more about my services? Or you got an awesome idea, dont hesitate to share it with me. I'll sure make it come true.
         .container
           .row
-            .col-lg-6.map
+            .col-lg-6.col-md-6.col-sm-6.map
               #map
             .col-lg-6.contact-text
-            form.form-horizontal
-              fieldset
-                // Form Name
-                legend Form Name
-                // Text input
-                .form-group
-                  label.col-md-6.control-label(for='textinput') Email*
-                  .col-md-6
-                    input#textinput.form-control.input-md(name='textinput', type='text', placeholder='Whats your email address?', required='')
-                // Text input
-                .form-group
-                  label.col-md-6.control-label(for='textinput') Name*
-                  .col-md-6
-                    input#textinput.form-control.input-md(name='textinput', type='text', placeholder='What is your name?', required='')
-                // Textarea
-                .form-group
-                  label.col-md-6.control-label(for='textarea') Message*
-                  .col-md-6
-                    textarea#textarea.form-control(name='textarea') Whats on your mind?
-                // Button
-                .form-group
-                  label.col-md-6.control-label(for='submitButton')
-                  .col-md-6
-                    button#submitButton.btn.btn-info(name='submitButton') Send
-
-
+              .inner.contact
 
 
 script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")

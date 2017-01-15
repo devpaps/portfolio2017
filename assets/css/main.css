@@ -423,6 +423,9 @@ template {
 [hidden] {
   display: none; }
 
+* {
+  box-sizing: border-box; }
+
 body {
   background-color: white;
   font-size: 14px;
@@ -703,6 +706,9 @@ span#open {
     .hero-img .container .myName {
       color: #fff;
       margin: 0; }
+      @media (max-width: 480px) {
+        .hero-img .container .myName {
+          font-size: 25px; } }
     .hero-img .container .frontEnd {
       color: #fff;
       margin: 0; }
@@ -717,7 +723,11 @@ span#open {
 
 /****************Main****************/
 .about {
-  margin-top: 5rem; }
+  margin-top: 10rem;
+  height: 100vh; }
+  @media (max-width: 768px) {
+    .about {
+      height: 70vh; } }
   .about .picture-me {
     height: 500px;
     background: url("/assets/img/me.jpg") top;
@@ -727,7 +737,8 @@ span#open {
     .about article h4 {
       margin-bottom: 1rem; }
     .about article p {
-      margin-top: 3rem; }
+      margin-top: 3rem;
+      padding: 0 3rem; }
     .about article h4, .about article p {
       text-align: center; }
   .about .line {
@@ -737,16 +748,19 @@ span#open {
     margin: auto; }
 
 /****************Gallery****************/
-.gallery {
-  margin-top: 20rem; }
-  .gallery h4, .gallery p {
+.gallerys {
+  height: auto; }
+  @media (max-width: 768px) {
+    .gallerys {
+      height: auto; } }
+  .gallerys h4, .gallerys p {
     text-align: center; }
-  .gallery .row {
+  .gallerys .row {
     margin: 0;
     padding: 0 .5rem; }
-    .gallery .row .col-md-4 {
+    .gallerys .row .col-md-4 {
       margin-top: 20px; }
-      .gallery .row .col-md-4 img {
+      .gallerys .row .col-md-4 img {
         display: block;
         height: auto;
         max-width: 100%; }
@@ -769,7 +783,7 @@ span#open {
 
 /****************Testamonials****************/
 .testamonials {
-  width: 100%;
+  width: auto;
   margin: 10rem 0 0 0; }
   .testamonials h4 {
     text-align: center;
@@ -793,8 +807,6 @@ span#open {
   .tools h4 {
     text-align: center;
     padding-bottom: 3rem; }
-  .tools .container .icons {
-    text-align: -webkit-center; }
   .tools .container img {
     display: block;
     max-width: 100%;
@@ -804,19 +816,22 @@ span#open {
         margin-top: 5rem; } }
 
 /****************Services****************/
-.services .services-text {
-  margin: 5rem 0 5rem; }
-  .services .services-text h4, .services .services-text p {
+.services {
+  height: 100vh; }
+  @media (max-width: 768px) {
+    .services {
+      height: 100vh; } }
+  .services .services-text {
+    margin: 5rem 0 5rem; }
+    .services .services-text h4, .services .services-text p {
+      text-align: center; }
+  .services .row .icon {
+    background: transparent;
     text-align: center; }
-
-.services .row .icon {
-  background: transparent;
-  text-align: center; }
-  .services .row .icon img {
-    width: 50px; }
-
-.services .row .text {
-  background: green; }
+    .services .row .icon img {
+      width: 50px; }
+  .services .row .text {
+    background: green; }
 
 /****************Contact****************/
 .contact {

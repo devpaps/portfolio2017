@@ -76,6 +76,8 @@ span#open
     .myName
       color: $white
       margin: 0
+      @media (max-width: 480px)
+        font-size: 25px
     .frontEnd
       color: $white
       margin: 0
@@ -95,8 +97,10 @@ span#open
 
 
 .about
-  margin-top: 5rem
-
+  margin-top: 10rem
+  height: 100vh
+  @media (max-width: 768px)
+    height: 70vh
   .picture-me
     height: 500px
     background: url("/assets/img/me.jpg") top
@@ -109,6 +113,7 @@ span#open
       margin-bottom: 1rem
     p
       margin-top: 3rem
+      padding: 0 3rem
     h4, p
       text-align: center
 
@@ -120,8 +125,10 @@ span#open
 
 /****************Gallery****************/
 
-.gallery
-  margin-top: 20rem
+.gallerys
+  height: auto
+  @media (max-width: 768px)
+    height: auto
   h4, p
     text-align: center
 
@@ -158,7 +165,7 @@ span#open
 
 
 .testamonials
-  width: 100%
+  width: auto
   margin: 10rem 0 0 0
   h4
     text-align: center
@@ -186,7 +193,7 @@ span#open
     padding-bottom: 3rem
   .container
     .icons
-      text-align: -webkit-center
+      
     img
       display: block
       max-width: 100%
@@ -199,6 +206,9 @@ span#open
 
 
 .services
+  height: 100vh
+  @media (max-width: 768px)
+    height: 100vh
   .services-text
     margin: 5rem 0 5rem
     h4, p
