@@ -1,4 +1,5 @@
 
+//Navigation
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
   document.getElementById("open").style.visibility = "hidden";
@@ -9,7 +10,7 @@ function closeNav() {
     document.getElementById("open").style.visibility = "visible";
 }
 
-
+//Google Maps API
 function initMap() {
   var östersund = {lat: 63.1741871, lng: 14.5595061};
   var map = new google.maps.Map(document.getElementById('map'), {
@@ -32,3 +33,4 @@ function initMap() {
       };
 
 }
+
