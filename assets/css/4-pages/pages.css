@@ -1,0 +1,236 @@
+.container-fluid {
+  padding: 0px; }
+
+/***************Navigation****************/
+.collector {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  z-index: 9999; }
+
+.navbar {
+  border-radius: 0; }
+
+#mySidenav {
+  background: #fff; }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s; }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #333;
+    display: block;
+    transition: 0.3s; }
+    .sidenav a:hover, .sidenav a .offcanvas a:focus {
+      color: #999; }
+  .sidenav .sidenav, .sidenav .closebtn {
+    margin-left: 21rem;
+    font-size: 3.5rem;
+    position: relative;
+    top: -60px;
+    padding: 0;
+    text-align: center;
+    cursor: pointer; }
+
+span#open {
+  cursor: pointer;
+  margin-left: 20px;
+  color: #333;
+  font-size: 1.5rem; }
+
+/*****************Jumbotron****************/
+.hero-img {
+  max-width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background: pink url("/portfolio2017/assets/img/sky.jpeg") center no-repeat; }
+  .hero-img .container {
+    position: relative;
+    left: 5%;
+    top: 30%;
+    display: inline-block; }
+    .hero-img .container .myName {
+      color: #fff;
+      margin: 0; }
+      @media (max-width: 480px) {
+        .hero-img .container .myName {
+          font-size: 25px; } }
+    .hero-img .container .frontEnd {
+      color: #fff;
+      margin: 0; }
+    .hero-img .container .social-media-icons {
+      margin-top: 1rem; }
+      .hero-img .container .social-media-icons a:nth-child(1n+2) {
+        margin-left: 1.5rem; }
+      .hero-img .container .social-media-icons img {
+        transition: all .3s ease-in-out; }
+        .hero-img .container .social-media-icons img:hover {
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26); }
+
+/****************About****************/
+.about {
+  margin: 10rem 0 10rem; }
+  @media (max-width: 768px) {
+    .about {
+      height: 70vh; } }
+  .about .picture-me {
+    height: 500px;
+    background: url("/portfolio2017/assets/img/me.jpg") top;
+    background-size: cover; }
+  .about article {
+    padding: 2rem; }
+    .about article h4 {
+      margin-bottom: 1rem; }
+    .about article p {
+      margin-top: 3rem;
+      padding: 0 3rem; }
+    .about article h4, .about article p {
+      text-align: center; }
+  .about .line {
+    width: 100px;
+    height: 3px;
+    background: blue;
+    margin: auto; }
+
+/****************Gallery****************/
+@media (max-width: 768px) {
+  .gallerys {
+    height: auto; } }
+
+.gallerys h4, .gallerys p {
+  text-align: center; }
+
+.gallerys .row {
+  margin: 0;
+  padding: 0 .5rem; }
+  .gallerys .row .col-md-4 {
+    margin-top: 20px; }
+    .gallerys .row .col-md-4 img {
+      display: block;
+      height: auto;
+      max-width: 100%; }
+
+/****************Modal****************/
+.modal {
+  text-align: center;
+  padding: 0 !important; }
+  .modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px; }
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle; }
+
+/****************Testamonials****************/
+.testamonials {
+  width: auto;
+  margin: 10rem 0 0 0; }
+  .testamonials h4 {
+    text-align: center;
+    padding-bottom: 3rem; }
+  .testamonials .row {
+    background: #0C2239;
+    padding: 15rem 0 15rem;
+    color: silver; }
+    .testamonials .row .text-testamonials {
+      text-align: center; }
+      .testamonials .row .text-testamonials h3 {
+        color: silver; }
+
+/****************Tools****************/
+.tools {
+  width: 100%;
+  margin: 10rem 0 10rem; }
+  @media (max-width: 768px) {
+    .tools {
+      margin-top: 10rem; } }
+  .tools h4 {
+    text-align: center;
+    padding-bottom: 3rem; }
+  .tools .container .icons {
+    text-align: -webkit-center; }
+  .tools .container img {
+    display: block;
+    max-width: 100%;
+    height: auto; }
+    @media (max-width: 768px) {
+      .tools .container img {
+        margin-top: 5rem; } }
+
+/****************Services****************/
+.services .services-text {
+  margin: 5rem 0 5rem; }
+  .services .services-text h4, .services .services-text p {
+    text-align: center; }
+
+.services .row .icon {
+  background: transparent;
+  text-align: center; }
+  .services .row .icon img {
+    width: 50px; }
+
+.services .row .text {
+  background: green; }
+
+/****************Contact****************/
+.container.contact {
+  margin-bottom: 5rem; }
+  .container.contact .contact-text {
+    text-align: center;
+    width: 50%;
+    margin: 10rem auto 0; }
+  .container.contact .container .map {
+    margin-top: 3rem; }
+    .container.contact .container .map #map {
+      width: 100%;
+      height: 450px;
+      background-color: grey;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }
+  .container.contact .container .row .col-lg-8 .form_main {
+    margin-top: 3rem;
+    padding-left: 5rem; }
+    @media (max-width: 1195px) {
+      .container.contact .container .row .col-lg-8 .form_main {
+        padding-left: 0; } }
+    .container.contact .container .row .col-lg-8 .form_main .icons {
+      display: block;
+      margin-top: 3rem; }
+      .container.contact .container .row .col-lg-8 .form_main .icons img {
+        display: block;
+        width: 20px;
+        float: left; }
+      .container.contact .container .row .col-lg-8 .form_main .icons span {
+        margin-left: 1rem; }
+        .container.contact .container .row .col-lg-8 .form_main .icons span .contact-google-icon {
+          margin-top: 3rem; }
+    .container.contact .container .row .col-lg-8 .form_main .main {
+      margin-top: 3rem; }
+      .container.contact .container .row .col-lg-8 .form_main .main input, .container.contact .container .row .col-lg-8 .form_main .main textarea {
+        margin-top: 2rem;
+        padding: 1rem; }
+      .container.contact .container .row .col-lg-8 .form_main .main #name {
+        text-transform: capitalize; }
+      .container.contact .container .row .col-lg-8 .form_main .main input[type="submit"] {
+        line-height: 18px; }
+  .container.contact .links .container .row .tot {
+    background: pink; }

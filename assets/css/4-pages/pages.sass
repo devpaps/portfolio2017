@@ -73,12 +73,12 @@ span#open
     top: 30%
     display: inline-block
     .myName
-      color: $white
+      color: #fff
       margin: 0
       @media (max-width: 480px)
         font-size: 25px
     .frontEnd
-      color: $white
+      color: #fff
       margin: 0
 
     .social-media-icons
@@ -118,7 +118,7 @@ span#open
   .line
     width: 100px
     height: 3px
-    background: $blue
+    background: blue
     margin: auto
 
 /****************Gallery****************/
@@ -170,11 +170,11 @@ span#open
   .row
     background: #0C2239
     padding: 15rem 0 15rem
-    color: $silver
+    color: silver
     .text-testamonials
       text-align: center
       h3
-        color: $silver
+        color: silver
 
 
 /****************Tools****************/
@@ -237,33 +237,53 @@ span#open
         filter: grayscale(100%)
   .container
     .row
-      .col-lg-8
-        .form_main
-          margin-top: 3rem
-          padding-left: 5rem
-          @media (max-width: 1195px)
-            padding-left: 0
-          .icons
+      .form_main
+        margin: 3rem 0 0 3rem
+        .icons
+          display: block
+          margin: 3rem 0 3rem -1rem
+          img
             display: block
-            margin-top: 3rem
-            img
-              display: block
-              width: 20px
-              float: left
-            span
-              margin-left: 1rem
-              .contact-google-icon
-                margin-top: 3rem
+            width: 20px
+            float: left
+          span
+            margin-left: 1rem
+            .contact-google-icon
+              margin-top: 3rem
 
-          .main
-            margin-top: 3rem
 
-            input, textarea
-              margin-top: 2rem
-              padding: 1rem
+          #name
+            text-transform: capitalize
 
-            #name
-              text-transform: capitalize
-            input[type="submit"]
-              line-height: 18px
+        .button
+          color: #fff
+          background: #1ABC9C
+          border: #1ABC9C
 
+/****************Links****************/
+
+.container
+  .container
+    .row
+      .tot
+        text-align: -webkit-center
+        margin-bottom: 5rem
+      .twitter
+        background: #55ACEE
+      .linkedin
+        background: #232323
+      .codepen
+        background: #007BB5
+
+/****************Footer****************/
+
+.footer
+  margin-top: 5rem
+  .row
+  .col-lg-6
+    padding-left: 0px
+    .col-lg-2
+      &:nth-child(1)
+        padding-left: 0px
+  hr.row
+    margin-top: 5rem
