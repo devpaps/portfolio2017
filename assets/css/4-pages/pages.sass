@@ -65,7 +65,7 @@ span#open
   max-width: 100%
   height: 100vh
   background-size: cover
-  background: pink url("/portfolio2017/assets/img/sky.jpeg") center no-repeat
+  background: pink url("/assets/img/sky.jpeg") center no-repeat
 
   .container
     position: relative
@@ -101,7 +101,7 @@ span#open
     height: 70vh
   .picture-me
     height: 500px
-    background: url("/portfolio2017/assets/img/me.jpg") top
+    background: url("/assets/img/me.jpg") top
     background-size: cover
 
   article
@@ -124,6 +124,7 @@ span#open
 /****************Gallery****************/
 
 .gallerys
+  padding-top: 5rem
   @media (max-width: 768px)
     height: auto
   h4, p
@@ -162,6 +163,7 @@ span#open
 
 
 .testamonials
+  padding-top: 5rem
   width: auto
   margin: 10rem 0 0 0
   h4
@@ -203,7 +205,7 @@ span#open
 
 
 .services
-
+  padding-top: 1rem
   .services-text
     margin: 5rem 0 5rem
     h4, p
@@ -219,26 +221,27 @@ span#open
 
 /****************Contact****************/
 
-.container.contact
+.contact
+  padding-top: 1rem
   margin-bottom: 5rem
   .contact-text
     text-align: center
-    width: 50%
-    margin: 10rem auto 0
+    margin: 5rem auto 0
 
   .container
-
     .map
       margin-top: 3rem
       #map
         width: 100%
         height: 450px
-        background-color: grey
-        filter: grayscale(100%)
+
+
   .container
     .row
       .form_main
         margin: 3rem 0 0 3rem
+        @media (max-width: 1200px)
+          margin: 0px
         .icons
           display: block
           margin: 3rem 0 3rem -1rem
@@ -250,15 +253,13 @@ span#open
             margin-left: 1rem
             .contact-google-icon
               margin-top: 3rem
-
-
           #name
             text-transform: capitalize
+      #status
+        display: inline
+        p
+          margin-top: 3rem
 
-        .button
-          color: #fff
-          background: #1ABC9C
-          border: #1ABC9C
 
 /****************Links****************/
 
@@ -268,22 +269,33 @@ span#open
       .tot
         text-align: -webkit-center
         margin-bottom: 5rem
+        img
+          width: 45px
       .twitter
         background: #55ACEE
+        @media (max-width: 1200px)
+          background: none
       .linkedin
-        background: #232323
-      .codepen
         background: #007BB5
+        @media (max-width: 1200px)
+          background: none
+      .codepen
+        background: #232323
+        @media (max-width: 1200px)
+          background: none
 
 /****************Footer****************/
 
 .footer
   margin-top: 5rem
-  .row
+  @media (max-width: 450px)
+    margin-top: 0px
   .col-lg-6
     padding-left: 0px
-    .col-lg-2
-      &:nth-child(1)
-        padding-left: 0px
+    @media (max-width: 768px)
+      padding-left: 15px
+    @media (max-width: 450px)
+      display: grid
+      margin-bottom: 2rem
   hr.row
     margin-top: 5rem

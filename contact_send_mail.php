@@ -1,16 +1,19 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-
-Welcome <?php echo $_POST["name"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; ?>
-
-</body>
-</html>
+<?php
+if( isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']) ){
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$message = nl2br($_POST['message']);
+	$to = "crymeat@me.com";
+	$from = $email;
+	$subject = 'Mail från webbsidan';
+	$message = '<b>Name:</b> '.$name.' <br><b>Email:</b> '.$email.' <p>'.$message.'</p>';
+	$headers = "From: $from\n";
+	$headers .= "MIME-Version: 1.0\n";
+	$headers .= "Content-type: text/html; charset=iso-8859-1\n";
+	if( mail($to, $subject, $message, $headers) ){
+		echo "success";
+	} else {
+		echo "The server <strong>failed</strong> to send the message. Please try again later.";
+	}
+}
+?>
