@@ -151,8 +151,6 @@
                                   <div class="carousel-content">
                                       <div class="container text-testamonials">
                                           <h4>Sofie Blom</h4>
-
-
                                           <p>He is a wunderful human</p>
                                       </div>
                                   </div>
@@ -162,7 +160,8 @@
                               <div class="item">
                                   <div class="carousel-content">
                                       <div class="container text-testamonials">
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, sint fuga temporibus nam saepe delectus expedita vitae magnam necessitatibus dolores tempore consequatur dicta cumque repellendus eligendi ducimus placeat!</p>
+                                          <h4>Lorenzo Andersson</h4>
+                                          <p>Lorem ipsum dolor sit amet</p>
                                       </div>
                                   </div>
                               </div>
@@ -171,7 +170,8 @@
                               <div class="item">
                                   <div class="carousel-content">
                                       <div class="container text-testamonials">
-                                          <p>Sapiente, ducimus, voluptas, mollitia voluptatibus nemo explicabo sit blanditiis laborum dolore illum fuga veniam quae expedita libero accusamus quas harum ex numquam necessitatibus provident deleniti tenetur iusto officiis recusandae corporis culpa quaerat?</p>
+                                        <h4>Martin Sundin</h4>
+                                        <p>Sapiente, ducimus, voluptas, mollitia voluptatibus nemo.</p>
                                       </div>
                                   </div>
                               </div>
@@ -185,33 +185,40 @@
 
 
         <section class="container tools">
-            <h4>The tools that i use daily in my development environment</h4>
+          <h4>The tools that i use daily in my development environment</h4>
 
+          <div class="row">
 
-            <div class="container col-lg-12">
+            <div class="container col-lg-10 col-lg-offset-2">
                 <div class="sass icons">
-                    <div class="col-lg-3"><img alt="sass" src="./assets/img/sass.png">
+                    <div class="col-lg-2"><img alt="sass" src="./assets/img/sass.png">
                     </div>
                 </div>
 
 
                 <div class="pug icons">
-                    <div class="col-lg-3"><img alt="pug/jade" src="./assets/img/pug.png">
+                    <div class="col-lg-2"><img alt="pug/jade" src="./assets/img/pug.png">
                     </div>
                 </div>
 
 
                 <div class="jquery icons">
-                    <div class="col-lg-3"><img alt="jquery" src="./assets/img/jquery.png">
+                    <div class="col-lg-2"><img alt="jquery" src="./assets/img/jquery.png">
                     </div>
                 </div>
 
 
                 <div class="javascript icons">
-                    <div class="col-lg-3"><img alt="javascript" src="./assets/img/js.png">
+                    <div class="col-lg-2"><img alt="javascript" src="./assets/img/js.png">
+                    </div>
+                </div>
+
+                <div class="github icons">
+                    <div class="col-lg-2"><img alt="javascript" src="./assets/img/github3.png">
                     </div>
                 </div>
             </div>
+          </div>
         </section>
 
         <div id="Services">
@@ -381,25 +388,27 @@
       	</section>
         <section class="container footer">
           <div class="row col-lg-6 col-xs-12">
-            <div class="col-lg-2 col-md-2 col-xs-2">
-              <a href="#Home">Home</a>
-            </div>
+            <strong>
               <div class="col-lg-2 col-md-2 col-xs-2">
-                <a href="#About">About</a>
+                <a href="#Home">Hem</a>
               </div>
-              <div class="col-lg-2 col-md-2 col-xs-2">
-                <a href="#Work">Work</a>
-              </div>
-              <div class="col-lg-3 col-md-3 col-xs-3">
-                <a href="#Testamonials">Testamonials</a>
-              </div>
-              <div class="col-lg-2 col-md-3 col-xs-3">
-                <a href="#Services">Services</a>
-              </div>
+                <div class="col-lg-2 col-md-2 col-xs-2">
+                  <a href="#About">Om mig</a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-2">
+                  <a href="#Work">Arbete</a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-xs-3">
+                  <a href="#Testamonials">Referenser</a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-xs-3">
+                  <a href="#Services">Services</a>
+                </div>
+              </strong>
           </div>
           <hr class="row">
-          <div class="row col-lg-12">
-            <p>All rights reserved &amp; Copyright 2017</p>
+          <div class="row col-lg-12 copyright">
+            <strong>© 2017 – <a href="http://webbkon.se">Lars Jönsson</a></strong>
           </div>
         </section>
 
