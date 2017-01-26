@@ -132,17 +132,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/assets\/github.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7157,
-		"inputAbbreviatedPath": "\/assets\/github.png",
-		"outputAbbreviatedPath": "\/assets\/github.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/img\/codepen.png": {
 		"fileType": 32768,
 		"ignore": 0,

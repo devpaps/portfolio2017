@@ -50,3 +50,18 @@ $(document).ready(function(){
     e.preventDefault();
   });
 });
+
+
+//Bootstrap Modal
+$(document).ready(function(){
+  $('.popupimage').click(function(e){
+    event.preventDefault();
+    $('.modal img').attr('src', $(this).attr('href'));
+    $('.modal').modal('show');
+  });
+});
+
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
