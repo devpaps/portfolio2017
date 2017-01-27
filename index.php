@@ -26,8 +26,8 @@
                     <a href="#Home" class="slide-section">Hem</a>
                     <a href="#About" class="slide-section">Om mig</a>
                     <a href="#Work" class="slide-section">Projekt</a>
-                    <a href="#Testamonials" class="slide-section">Referenser</a>
-                    <a href="#Services" class="slide-section">Service</a>
+                    <!--<a href="#Testamonials" class="slide-section">Referenser</a>-->
+                    <a href="#Services" class="slide-section">Tjänster</a>
                     <a href="#Contact" class="slide-section">Kontakta mig</a>
                 </nav>
                 <span id="open" onclick="openNav()">Menu</span>
@@ -48,6 +48,10 @@
                       </a>
                     </div>
 
+                </div>
+                <div class="container-right">
+                  <img src="./assets/img/header-code-img.png" alt="" class="img-responsive">
+                  <em><h5>"Jag gör simpelt kaffe till cyberkod."</h5></em>
                 </div>
             </div>
         </header>
@@ -138,6 +142,7 @@
           </div>
 
 
+        <!--
         <div id="Testamonials">
           <section class="testamonials container">
               <div class="carousel slide" data-ride="carousel" id="text-carousel">
@@ -193,11 +198,12 @@
           </section>
 
         </div>
+              -->
 
 
         <section class="container tools">
           <h3>Verktygen jag använder mig av</h3>
-
+          <div class="line"></div>
           <div class="row">
 
             <div class="container col-lg-offset-2">
@@ -235,10 +241,10 @@
         <div id="Services">
           <section class="container services">
               <div class="services-text">
-                  <h3>Jag erbjuder detta</h3>
+                  <h3>Mina tjänster</h3>
                   <div class="line"></div>
 
-                  <p>Jag jobbar med den senaste tekniken när jag kodar fram din webbplats. Jag ...</p>
+                  <p>Jag jobbar med den senaste tekniken när jag kodar fram din webbplats. Jag jobbar även på ett agilt arbetssätt.</p>
               </div>
 
 
