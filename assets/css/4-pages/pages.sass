@@ -222,14 +222,29 @@ span#open
       text-align: center
     h3
       font-weight: 500
-  .row
+
+  .container
+    @media (max-width: 768px)
+      &:nth-of-type(odd) .row
+        display: flex
+        flex-direction: column-reverse
     .icon
       background: transparent
       text-align: center
+      height: 196px
       img
-        width: 50px
+        width: 140px
+        height: inherit
     .text
-      background: green
+      background: antiquewhite
+      padding: 3rem
+      @media (max-width: 768px)
+        margin: 3rem 0
+      h4, p
+        text-align: left
+      u
+        border-bottom: 1px dotted #000
+        text-decoration: none
 
 /****************Contact****************/
 

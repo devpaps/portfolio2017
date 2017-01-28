@@ -18,6 +18,7 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 10,
     center: östersund,
+    disableDefaultUI: true,
     scrollwheel: false
   });
   var marker = new google.maps.Marker({

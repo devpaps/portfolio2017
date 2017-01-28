@@ -7,9 +7,11 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta name="author" content="Lars Jönsson">
-    <meta name="description" content="Lars J&#246;nsson &#228;r en frilansande webbutvecklare fr&#229;n den centrala delen av Sverige, &#214;stersund. Jag kan erbjuda dig just Din webbsida s&#229;som du vill ha den. G&#246;	ra &#228;ven l&#228;ttare jobb så som &#228;ndringar i kod eller banner av olika slag.">
-    <meta name='keywords' content='webbdesigner, webdesigner, webdesign, design, webbutvecklaing, webutveckling, hemsida, hemsidor, webbplatser, webbplats, webbsida, Jönköping, Huskvarna, webbproduktion, portfolio'>
-    <meta name='language' content='SV'>
+    <meta name="description" content="Lars J&#246;nsson &#228;r en frilansande webbutvecklare fr&#229;n den centrala delen av Sverige, &#214;stersund.">
+    <meta name="keywords" content="webbdesigner, webdesigner, webdesign, design, webbutvecklaing, webutveckling, hemsida, hemsidor, webbplatser, webbplats, webbsida, Östersund, Jämtland, webbproduktion, portfolio">
+    <meta name="google-site-verification" content="EKHpD342_nh74tp-EzJVa5Klxs21y4h8IzMn2cyINf4" />
+    <meta name="language" content="SV">
+    <link rel="alternate" hreflang="sv" href="http://www.webbkon.se">
     <meta content="#fff" name="theme-color">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
@@ -251,12 +253,13 @@
               <div class="container col-lg-12 seo">
                   <div class="row">
                       <div class="col-md-6 icon">
-                          <p>IMG</p>
+                          <img src="./assets/img/browser.svg" alt="browser icon">
                       </div>
 
 
                       <div class="col-md-6 text">
-                          <p>Text</p>
+                          <h4>Banners</h4>
+                          <p>Jag hjälper er med att göra banners av olika slag. Det kan vara något ni vill uttrycka på eran webbsida, t.ex. <strong><u>reklam</u></strong> för någon produkt vara vanligt brukar vara vanligt.</p>
                       </div>
                   </div>
               </div>
@@ -265,12 +268,13 @@
               <div class="container col-lg-12 responsive">
                   <div class="row">
                       <div class="col-md-6 text">
-                          <p>Text</p>
+                          <h4>SEO</h4>
+                          <p>Jag kommer ge er en <strong><u>sökvänlig</u></strong> webbplats som betyder att fler kan hitta till just er webbplats. Så att Googles <strong><u>sökspindlar</u></strong> kan lättare hitta eran webbplats. Så att ni kan få fler att besöka er.</p>
                       </div>
 
 
                       <div class="col-md-6 icon">
-                          <p>IMG</p>
+                          <img src="./assets/img/spider.svg" alt="SEO icon">
                       </div>
                   </div>
               </div>
@@ -279,12 +283,13 @@
               <div class="container col-lg-12 code">
                   <div class="row">
                       <div class="col-md-6 icon">
-                          <p>IMG</p>
+                          <img src="./assets/img/responsive.svg" alt="responsive icon">
                       </div>
 
 
                       <div class="col-md-6 text">
-                          <p>Text</p>
+                          <h4>Responsiv</h4>
+                          <p>Att ha en responsiv webbplats idag är ett måste. Nästan alla som surfar på webben idag använder sig av deras <strong><u>mobil</u></strong>. Därför är det viktigt att eran webbplats ska få en bra <strong><u>användarupplevelse</u></strong> på små skärmar.</p>
                       </div>
                   </div>
               </div>
@@ -293,12 +298,13 @@
               <div class="container col-lg-12 design">
                   <div class="row">
                       <div class="col-md-6 text">
-                          <p>Text</p>
+                          <h4>Snabb</h4>
+                          <p>Det är väldigt viktigt att dagens webbplatser är snabb. Det sägs att webbplatser som inte laddat klart på <strong><u>3 sekunder</u></strong>, finns det en risk att användaren blir <strong><u>frustrerad och lämnar webbplatsen</u></strong>.</p>
                       </div>
 
 
                       <div class="col-md-6 icon">
-                          <p>IMG</p>
+                          <img src="./assets/img/speedometer.svg" alt="speedometer icon">
                       </div>
                   </div>
               </div>
@@ -407,21 +413,21 @@
           <div class="row col-lg-6 col-xs-12">
             <strong>
 
-                <a href="#Home">Hem</a>
+              <a href="#Home">Hem</a>
 
 
-                  <a href="#About">Om mig</a>
+              <a href="#About">Om mig</a>
 
 
-                  <a href="#Work">Arbete</a>
+              <a href="#Work">Arbete</a>
 
 
-                  <a href="#Testamonials">Referenser</a>
+              <a href="#Testamonials">Referenser</a>
 
 
-                  <a href="#Services">Services</a>
+              <a href="#Services">Services</a>
 
-              </strong>
+            </strong>
           </div>
           <hr class="row">
           <div class="row col-lg-12 copyright">
@@ -429,9 +435,10 @@
           </div>
         </section>
 
+    </div>
+</div>
 
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
 </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
 </script>

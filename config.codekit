@@ -154,17 +154,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/img\/GitHub-Mark.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2625,
-		"inputAbbreviatedPath": "\/assets\/img\/GitHub-Mark.png",
-		"outputAbbreviatedPath": "\/assets\/img\/GitHub-Mark.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/assets\/img\/github2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -185,7 +174,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/github3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/google-pin.png": {
 		"fileType": 32768,
@@ -207,18 +196,18 @@
 		"outputAbbreviatedPath": "\/assets\/img\/header-code-img.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/image.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.2543e+06,
+		"initialSize": 242189,
 		"inputAbbreviatedPath": "\/assets\/img\/image.jpeg",
 		"outputAbbreviatedPath": "\/assets\/img\/image.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/jquery.png": {
 		"fileType": 32768,
