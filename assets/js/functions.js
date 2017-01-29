@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 //Navigation
 function openNav() {
@@ -37,20 +37,33 @@ function initMap() {
       };
 }
 
-
-//Sliding thru the page based on what linked clicked
 $(document).ready(function(){
-  $('.slide-section').click(function(e){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});
 
-    var linkHref = $(this).attr('href');
+  // Add smooth scrolling on all links inside the navbar
+  $("#mySidenav a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
 
-    $('html, body').animate({
-      scrollTop: $(linkHref).offset().top
-    });
+      // Store hash
+      var hash = this.hash;
 
-    e.preventDefault();
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = '';
+      });
+    }  // End if
   });
 });
+
 
 
 //Bootstrap Modal
