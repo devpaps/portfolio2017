@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html lang="sv-SE">
+<html lang="sv">
 <head>
   <title>Lars Jönsson | Frilansande Webbutvecklare</title>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="Lars Jönsson" name="author">
-  <meta content="Lars J&#246;nsson &#228;r en frilansande webbutvecklare fr&#229;n den centrala delen av Sverige, &#214;stersund." name="description">
-  <meta content="webbdesigner, webdesigner, webdesign, design, webbutvecklaing, webutveckling, hemsida, hemsidor, webbplatser, webbplats, webbsida, Östersund, Jämtland, webbproduktion, portfolio" name="keywords">
-  <meta content="EKHpD342_nh74tp-EzJVa5Klxs21y4h8IzMn2cyINf4" name="google-site-verification">
-  <meta content="SV" name="language">
-  <link href="http://www.webbkon.se" hreflang="sv" rel="alternate">
-  <meta content="#fff" name="theme-color">
+  <meta name="author" content="Lars Jönsson" >
+  <meta name="description" content="Lars J&#246;nsson &#228;r en frilansande webbutvecklare fr&#229;n den centrala delen av Sverige, &#214;stersund. Jag tillhandahåller tjänster som banners och webbsidor.">
+  <meta name="keywords" content="webbdesigner, webdesigner, webdesign, design, webbutvecklaing, webbutveckling, hemsida, hemsidor, webbplatser, webbplats, webbsida, Östersund, Jämtland, webbproduktion, portfolio">
+  <meta name="google-site-verification" content="EKHpD342_nh74tp-EzJVa5Klxs21y4h8IzMn2cyINf4">
+  <meta name="theme-color" content="#fff">
   <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/favicon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/favicon/apple-icon-72x72.png">
@@ -28,31 +26,11 @@
   <link rel="manifest" href="./assets/img/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png">
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-91073917-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link async defer href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link async defer href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
+  <link async defer href="assets/css/main.css" rel="stylesheet">
 </head>
 <body>
-  <!-- Load Facebook SDK for JavaScript -->
-  <div id="fb-root"></div>
-  <script>
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.8";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-  </script>
   <div class="container-fluid">
     <header>
       <div class="collector navbar">
@@ -72,7 +50,7 @@
           <h1 class="myName">Lars Jönsson</h1>
           <h4 class="frontEnd">Frilansande Webbutvecklare</h4>
           <div class="hire-me">
-            <a class="slide-section" href="#Contact"><button class="btn btn-danger" type="button">Kontakta mig</button></a>
+            <a class="slide-section" href="#kontakt"><button class="btn btn-danger" type="button">Kontakta mig</button></a>
           </div>
         </div>
         <div class="container-right">
@@ -91,7 +69,7 @@
           <br>
           Jag är just i startgroparna till att starta som <strong>frilansande webbutvecklare.</strong> Jag hoppas att hålla på med det här på heltid. Det jag kan hjälpa Er med är att skapa <strong>banners</strong> och så klart det mesta inom webben. I vissa fall så kan jag även hjälpa er med att ta fram en ny <strong>logga</strong> till ert företag eller förening.<br>
           <br>
-          <a href="#Contact">Kontakta mig</a> med era förslag eller problem ni vill att jag ska hjälpa er med.<br>
+          <a href="#kontakt">Kontakta mig</a> med era förslag eller problem ni vill att jag ska hjälpa er med.<br>
           <br></p>
           <div class="fb-share-button" data-href="http://webbkon.se/" data-layout="button" data-mobile-iframe="true">
             <a class="fb-xfbml-parse-ignore" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwebbkon.se%2F&amp;src=sdkpreparse" target="_blank">Dela</a>
@@ -108,32 +86,29 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-sm-4">
-            <a class="popupimage" href="./assets/img/image.jpeg"><img alt="" class="thumbnail" src="./assets/img/image.jpeg"></a>
+            <a class="popupimage" href="./assets/img/projekt-ett.png">
+              <img alt="projekt-ett" class="thumbnail" src="./assets/img/projekt-ett.png">
+            </a>
           </div>
           <div class="col-md-4 col-sm-4">
-            <a class="popupimage" href="./assets/img/image.jpeg"><img alt="" class="thumbnail" src="./assets/img/image.jpeg"></a>
+            <a class="popupimage" href="./assets/img/projekt-tva.png">
+              <img alt="projekt-två" class="thumbnail" src="./assets/img/projekt-tva.png">
+            </a>
           </div>
           <div class="col-md-4 col-sm-4">
-            <a class="popupimage" href="./assets/img/image.jpeg"><img alt="" class="thumbnail" src="./assets/img/image.jpeg"></a>
+            <a class="popupimage" href="./assets/img/projekt-tre.png">
+              <img alt="" class="thumbnail" src="./assets/img/projekt-tre.png">
+            </a>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-4">
-            <a class="popupimage" href="./assets/img/image.jpeg"><img alt="" class="thumbnail" src="./assets/img/image.jpeg"></a>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <a class="popupimage" href="./assets/img/image.jpeg"><img alt="" class="thumbnail" src="./assets/img/image.jpeg"></a>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <a class="popupimage" href="./assets/img/image.jpeg"><img alt="" class="thumbnail" src="./assets/img/image.jpeg"></a>
-          </div>
           <div class="modal fade">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
-                <img class="img-responsive" src=""></div>
+                <img class="img-responsive" src="">
+              </div>
             </div>
           </div>
-        </div>
+
       </div>
     </section>
       <!--
@@ -279,7 +254,7 @@
           <div class="col-lg-12">
             <div class="form_main">
               <div class="contact-google-icon icons">
-                <img alt="google-pin" src="http://maps.google.com/mapfiles/ms/icons/blue-dot.png"> <span>Östersund, Sweden</span>
+                <img alt="google-pin" src="https://maps.google.com/mapfiles/ms/icons/blue-dot.png"> <span>Östersund, Sweden</span>
               </div>
               <div class="contact-google-icon icons">
                 <img alt="google-pin" src="./assets/img/Email-icon.png"> <span>info@webbkon.se</span>
@@ -344,6 +319,25 @@
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDr0p_-clW9KPpMF01xEAOh36UR-DfLeSY&amp;callback=initMap">
     </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+      ga('create', 'UA-91073917-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+      <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+      </script>
 </body>
 </html>

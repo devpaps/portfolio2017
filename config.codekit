@@ -528,6 +528,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/projekt-ett.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 147773,
+		"inputAbbreviatedPath": "\/assets\/img\/projekt-ett.png",
+		"outputAbbreviatedPath": "\/assets\/img\/projekt-ett.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/projekt-fyra.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4639,
+		"inputAbbreviatedPath": "\/assets\/img\/projekt-fyra.png",
+		"outputAbbreviatedPath": "\/assets\/img\/projekt-fyra.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/projekt-tre.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11126,
+		"inputAbbreviatedPath": "\/assets\/img\/projekt-tre.png",
+		"outputAbbreviatedPath": "\/assets\/img\/projekt-tre.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/projekt-tva.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 465284,
+		"inputAbbreviatedPath": "\/assets\/img\/projekt-tva.png",
+		"outputAbbreviatedPath": "\/assets\/img\/projekt-tva.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/pug.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -1,13 +1,13 @@
-'use strict';
+"use strict";
 
 //Navigation
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("mySidenav").style.marginLeft = "0px";
   document.getElementById("open").style.visibility = "hidden";
 }
 
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mySidenav").style.marginLeft = "-250px";
     document.getElementById("open").style.visibility = "visible";
 }
 
@@ -24,7 +24,7 @@ function initMap() {
   var marker = new google.maps.Marker({
     position: östersund,
     map: map,
-    icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png'
+    icon: 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png'
   });
 
       var isDraggable = $(document).width() > 768 ? true : false; // If document (your website) is wider than 480px, isDraggable = true, else isDraggable = false
