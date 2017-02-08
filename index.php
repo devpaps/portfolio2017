@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="sv-SE">
 <head>
   <title>Lars Jönsson | Frilansande Webbutvecklare</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
   <meta name="author" content="Lars Jönsson" >
   <meta name="description" content="Lars J&#246;nsson &#228;r en frilansande webbutvecklare fr&#229;n den centrala delen av Sverige, &#214;stersund. Jag tillhandahåller tjänster som banners och webbsidor.">
   <meta name="keywords" content="webbdesigner, webdesigner, webdesign, design, webbutvecklaing, webbutveckling, hemsida, hemsidor, webbplatser, webbplats, webbsida, Östersund, Jämtland, webbproduktion, portfolio">
   <meta name="google-site-verification" content="EKHpD342_nh74tp-EzJVa5Klxs21y4h8IzMn2cyINf4">
+  <link rel="canonical" href="https://www.webbkon.se" />
   <meta name="theme-color" content="#fff">
+  <meta property="og:url" content="https://www.webbkon.se">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.webbkon.se/assets/img/me.jpg">
+  <meta property="og:title" content="Webbutvecklaren Lars vill hjälpa dig.">
+  <meta property="og:description" content="Jag är en frilansande webbutvecklare från den centrala delen av Sverige, Östersund. Jag tillhandahåller tjänster som banners och webbsidor.">
+  <meta property="fb:app_id" content="765053766992754">
   <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/favicon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/favicon/apple-icon-72x72.png">
@@ -26,11 +33,22 @@
   <link rel="manifest" href="./assets/img/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png">
-  <link async defer href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-  <link async defer href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
-  <link async defer href="assets/css/main.css" rel="stylesheet">
+  <link async href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link async href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
+  <link async href="assets/css/main.css" rel="stylesheet">
 </head>
 <body>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.8";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
   <div class="container-fluid">
     <header>
       <div class="collector navbar">
@@ -59,10 +77,10 @@
       </div>
     </header>
     <div id="om-mig"></div>
-    <section class="container About">
+    <section class="container About col-lg-12">
       <section class="about row">
-        <div class="picture-me col-md-6 col-sm-6 col-xs-12"></div>
-        <article class="col-md-6 col-sm-6 col-xs-12">
+        <div class="picture-me col-lg-4 col-md-6 col-sm-6 col-xs-12"></div>
+        <article class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-lg-offset-1">
           <h3>Lite om mig</h3>
           <div class="line"></div>
           <p>Jag har sysslat med webbutveckling sedan cirka ett år tillbaka nu. Vägen hit har varit den mest givande jag varit med om. Att få hålla på med det jag älskar är helt underbart.<br>
@@ -70,11 +88,9 @@
           Jag är just i startgroparna till att starta som <strong>frilansande webbutvecklare.</strong> Jag hoppas att hålla på med det här på heltid. Det jag kan hjälpa Er med är att skapa <strong>banners</strong> och så klart det mesta inom webben. I vissa fall så kan jag även hjälpa er med att ta fram en ny <strong>logga</strong> till ert företag eller förening.<br>
           <br>
           <a href="#kontakt">Kontakta mig</a> med era förslag eller problem ni vill att jag ska hjälpa er med.<br>
-          <br></p>
-          <div class="fb-share-button" data-href="http://webbkon.se/" data-layout="button" data-mobile-iframe="true">
-            <a class="fb-xfbml-parse-ignore" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwebbkon.se%2F&amp;src=sdkpreparse" target="_blank">Dela</a>
-          </div>
-          <p></p>
+          <br>
+          <div class="fb-share-button" data-href="https://www.webbkon.se" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.webbkon.se">Dela</a></div>
+
         </article>
       </section>
 
@@ -191,6 +207,17 @@
         </div>
       </div>
     </section>
+
+    <!--
+    <div class="container-fluid parallax">
+      <div class="image-box">
+        <div class="parallax-text">
+          <h2 class="ptext">En funktionell och säker webbsida <br>är aldrig långt bort</h2>
+        </div>
+      </div>
+    </div>
+    -->
+
     <div id="tjanster"></div>
     <section class="container services">
       <div class="services-text">
@@ -210,7 +237,7 @@
       <div class="container col-lg-12 responsive">
         <div class="row">
           <div class="col-md-6 text">
-            <h4>SEO</h4>
+            <h4>SEO - Sökmotoroptimering</h4>
             <p>Jag kommer ge er en <strong><u>sökvänlig</u></strong> webbplats som betyder att fler kan hitta till just er webbplats. Så att Googles <strong><u>sökspindlar</u></strong> kan lättare hitta eran webbplats. Så att ni kan få fler att besöka er.</p>
           </div>
           <div class="col-md-6 icon"><img alt="SEO icon" src="./assets/img/spider.svg"></div>
@@ -220,7 +247,7 @@
         <div class="row">
           <div class="col-md-6 icon"><img alt="responsive icon" src="./assets/img/responsive.svg"></div>
           <div class="col-md-6 text">
-            <h4>Responsiv</h4>
+            <h4>Responsivitet - Mobilvänlig webbplats</h4>
             <p>Att ha en responsiv webbplats idag är ett måste. Nästan alla som surfar på webben idag använder sig av deras <strong><u>mobil</u></strong>. Därför är det viktigt att eran webbplats ska få en bra <strong><u>användarupplevelse</u></strong> på små skärmar.</p>
           </div>
         </div>
@@ -228,7 +255,7 @@
       <div class="container col-lg-12 design">
         <div class="row">
           <div class="col-md-6 text">
-            <h4>Snabb</h4>
+            <h4>Optimerad kod för snabbare webbplats</h4>
             <p>Det är väldigt viktigt att dagens webbplatser är snabb. Det sägs att webbplatser som inte laddat klart på <strong><u>3 sekunder</u></strong>, finns det en risk att användaren blir <strong><u>frustrerad och lämnar webbplatsen</u></strong>.</p>
           </div>
           <div class="col-md-6 icon"><img alt="speedometer icon" src="./assets/img/speedometer.svg"></div>
@@ -292,10 +319,10 @@
       <div class="container">
         <div class="row col-lg-12">
           <a href="https://www.twitter.com/devpaps">
-          <div class="twitter tot col-lg-3 col-xs-3"><img alt="twitter-icon" src="./assets/img/twitter2.png"></div></a> <a href="https://github.com/devpaps">
-          <div class="github tot col-lg-3 col-xs-3"><img alt="Github-icon" src="./assets/img/github2.png"></div></a> <a href="http://codepen.io/Devpaps/">
-          <div class="codepen tot col-lg-3 col-xs-3"><img alt="LinkedIn-icon" src="./assets/img/codepen2.png"></div></a> <a href="https://se.linkedin.com/in/lars-j%C3%B6nsson-43b3646a">
-          <div class="linkedin tot col-lg-3 col-xs-3"><img alt="" src="./assets/img/linkedin2.png"></div></a>
+          <div class="twitter tot col-lg-3 col-xs-3" data-placement="bottom" data-toggle="tooltip" title="Twitter"><img alt="twitter-icon" src="./assets/img/twitter2.png"></div></a> <a href="https://github.com/devpaps">
+          <div class="github tot col-lg-3 col-xs-3"data-placement="bottom" data-toggle="tooltip" title="Github"><img alt="Github-icon" src="./assets/img/github2.png"></div></a> <a href="http://codepen.io/Devpaps/">
+          <div class="codepen tot col-lg-3 col-xs-3"data-placement="bottom" data-toggle="tooltip" title="Codepen"><img alt="LinkedIn-icon" src="./assets/img/codepen2.png"></div></a> <a href="https://se.linkedin.com/in/lars-j%C3%B6nsson-43b3646a">
+          <div class="linkedin tot col-lg-3 col-xs-3"data-placement="bottom" data-toggle="tooltip" title="LinkedIn"><img alt="" src="./assets/img/linkedin2.png"></div></a>
         </div>
       </div>
     </section>
@@ -328,16 +355,5 @@
       ga('create', 'UA-91073917-1', 'auto');
       ga('send', 'pageview');
     </script>
-      <!-- Load Facebook SDK for JavaScript -->
-      <div id="fb-root"></div>
-      <script>
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.8";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-      </script>
 </body>
 </html>

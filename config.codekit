@@ -132,6 +132,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/img\/code.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 561332,
+		"inputAbbreviatedPath": "\/assets\/img\/code.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/code.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/codepen2.png": {
 		"fileType": 32768,
 		"ignore": 0,
