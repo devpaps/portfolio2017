@@ -33,9 +33,9 @@
   <link rel="manifest" href="./assets/img/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png">
-  <link async href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-  <link async href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
-  <link async href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:500">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
   <!-- Load Facebook SDK for JavaScript -->
@@ -46,10 +46,10 @@
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
     js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.8";
-    fjs.parentNode.insertBefore(js, fjs);
+    fjs.parentNode.insertBefore(js, fjs)
   }(document, 'script', 'facebook-jssdk'));
   </script>
-  <div class="container-fluid">
+  <div class="container-fluid wrapper">
     <header>
       <div class="collector navbar">
         <div class="sidenav" id="mySidenav">
@@ -72,7 +72,7 @@
           </div>
         </div>
         <div class="container-right">
-          <img alt="" class="img-responsive" src="./assets/img/header-code-img.png">
+          <img alt="code-image" class="img-responsive" src="./assets/img/header-code-img.png">
         </div>
       </div>
     </header>

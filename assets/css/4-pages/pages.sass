@@ -1,3 +1,8 @@
+.wrapper
+  transition: opacity 1s ease-in-out
+  opacity: 0
+  display: none
+
 .container-fluid
   padding: 0px
 
@@ -289,7 +294,7 @@ span#open
 /****************Contact****************/
 
 .contact
-  padding-top: 1rem
+  padding-top: 10rem
   margin-bottom: 5rem
   h3
     font-weight: 500
@@ -376,3 +381,8 @@ span#open
     margin-bottom: 3rem
     a
       font-size: 13px
+
+
+@media (max-width: 768px)
+  .container
+    width: inherit
