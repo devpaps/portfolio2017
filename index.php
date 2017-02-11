@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="sv-SE">
 <head>
-  <title>Lars Jönsson | Frilansande Webbutvecklare</title>
+  <title>Lars Jönsson | Frilansande Webbutvecklare i Östersund</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
@@ -113,7 +113,7 @@
           </div>
           <div class="col-md-4 col-sm-4">
             <a class="popupimage" href="./assets/img/projekt-tre.png">
-              <img alt="" class="thumbnail" src="./assets/img/projekt-tre.png">
+              <img alt="projekt-tre" class="thumbnail" src="./assets/img/projekt-tre.png">
             </a>
           </div>
         </div>
@@ -230,7 +230,7 @@
           <div class="col-md-6 icon"><img alt="browser icon" src="./assets/img/browser.svg"></div>
           <div class="col-md-6 text">
             <h4>Banners</h4>
-            <p>Jag hjälper er med att göra banners av olika slag. Det kan vara något ni vill uttrycka på eran webbsida, t.ex. <strong><u>reklam</u></strong> för någon produkt vara vanligt brukar vara vanligt.</p>
+            <p>Jag hjälper er med banners av olika slag. Det kan vara något ni vill uttrycka på er webbplats, t.ex. <strong><u>reklam</u></strong> för någon produkt. Det är ett perfekt sätt att fånga kundernas öga.</p>
           </div>
         </div>
       </div>
@@ -238,7 +238,11 @@
         <div class="row">
           <div class="col-md-6 text">
             <h4>SEO - Sökmotoroptimering</h4>
-            <p>Jag kommer ge er en <strong><u>sökvänlig</u></strong> webbplats som betyder att fler kan hitta till just er webbplats. Så att Googles <strong><u>sökspindlar</u></strong> kan lättare hitta eran webbplats. Så att ni kan få fler att besöka er.</p>
+            <p>Jag kommer ge er en <strong><u>sökvänlig</u></strong> webbplats som betyder att fler kan hitta till just er. Med en bra SEO så kan potentiella <strong><u>kunder</u></strong> lättare hitta er. Win-Win för er båda.</p>
+            <a href="seo.php">
+              <button class="button btn primary" type="button">Läs mer</button>
+            </a>
+
           </div>
           <div class="col-md-6 icon"><img alt="SEO icon" src="./assets/img/spider.svg"></div>
         </div>
@@ -248,7 +252,7 @@
           <div class="col-md-6 icon"><img alt="responsive icon" src="./assets/img/responsive.svg"></div>
           <div class="col-md-6 text">
             <h4>Responsivitet - Mobilvänlig webbplats</h4>
-            <p>Att ha en responsiv webbplats idag är ett måste. Nästan alla som surfar på webben idag använder sig av deras <strong><u>mobil</u></strong>. Därför är det viktigt att eran webbplats ska få en bra <strong><u>användarupplevelse</u></strong> på små skärmar.</p>
+            <p>Att ha en responsiv webbplats idag är ett måste. I princip alla som surfar på webben idag använder sig av <strong><u>mobiler</u></strong>. Därför är det viktigt att just eran webbplats ska få en så bra <strong><u>användarupplevelse</u></strong>som möjligt på små skärmar.</p>
           </div>
         </div>
       </div>
@@ -256,7 +260,7 @@
         <div class="row">
           <div class="col-md-6 text">
             <h4>Optimerad kod för snabbare webbplats</h4>
-            <p>Det är väldigt viktigt att dagens webbplatser är snabb. Det sägs att webbplatser som inte laddat klart på <strong><u>3 sekunder</u></strong>, finns det en risk att användaren blir <strong><u>frustrerad och lämnar webbplatsen</u></strong>.</p>
+            <p>Det är väldigt viktigt att dagens webbplatser är snabba. Om dem inte laddat färdigt på <strong><u>4 sekunder</u></strong>, finns det en risk att 25% av användarna blir <strong><u>frustrerade och lämnar webbplatsen</u></strong>. Hårt men sant.</p>
           </div>
           <div class="col-md-6 icon"><img alt="speedometer icon" src="./assets/img/speedometer.svg"></div>
         </div>
