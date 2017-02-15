@@ -8,12 +8,11 @@
   <meta name="author" content="Lars Jönsson" >
   <meta name="description" content="Lars J&#246;nsson &#228;r en frilansande webbutvecklare fr&#229;n den centrala delen av Sverige, &#214;stersund. Jag tillhandahåller tjänster som banners och webbsidor.">
   <meta name="keywords" content="webbdesigner, webdesigner, webdesign, design, webbutvecklaing, webbutveckling, hemsida, hemsidor, webbplatser, webbplats, webbsida, Östersund, Jämtland, webbproduktion, portfolio">
-  <meta name="google-site-verification" content="EKHpD342_nh74tp-EzJVa5Klxs21y4h8IzMn2cyINf4">
   <link rel="canonical" href="https://www.webbkon.se" />
   <meta name="theme-color" content="#fff">
-  <meta property="og:url" content="https://www.webbkon.se">
+  <meta property="og:url" content="https://www.larsjönsson.se">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://www.webbkon.se/assets/img/me.jpg">
+  <meta property="og:image" content="https://www.larsjönsson.se/assets/img/me.jpg">
   <meta property="og:title" content="Webbutvecklaren Lars vill hjälpa dig.">
   <meta property="og:description" content="Jag är en frilansande webbutvecklare från den centrala delen av Sverige, Östersund. Jag tillhandahåller tjänster som banners och webbsidor.">
   <meta property="fb:app_id" content="765053766992754">
@@ -38,7 +37,7 @@
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-  <!-- Load Facebook SDK for JavaScript -->
+  <!-- Facebook SDK -->
   <div id="fb-root"></div>
   <script>
   (function(d, s, id) {
@@ -49,17 +48,17 @@
     fjs.parentNode.insertBefore(js, fjs)
   }(document, 'script', 'facebook-jssdk'));
   </script>
-  <div class="container-fluid wrapper">
+  <div class="container-fluid">
     <header>
       <div class="collector navbar">
         <div class="sidenav" id="mySidenav">
           <span class="closebtn" onclick="closeNav()">&times;</span>
-          <a href="#hem">Hem</a>
+          <a href="./index.php#hem">Hem</a>
           <a href="#om-mig">Om mig</a>
           <a href="#projekt">Projekt</a>
           <!--<a href="#Testamonials" class="slide-section">Referenser</a>-->
-          <a href="#tjanster">Tjänster</a>
-          <a href="#kontakt">Kontakta mig</a>
+          <a href="tjanster.php">Tjänster</a>
+          <a href="kontakt.php">Kontakta mig</a>
         </div><span id="open" onclick="openNav()">Meny</span>
       </div>
       <div id="hem"></div>
@@ -68,16 +67,17 @@
           <h1 class="myName">Lars Jönsson</h1>
           <h4 class="frontEnd">Frilansande Webbutvecklare</h4>
           <div class="hire-me">
-            <a class="slide-section" href="#kontakt"><button class="btn btn-danger" type="button">Kontakta mig</button></a>
+            <a class="slide-section" href="kontakt.php"><button class="btn btn-danger" type="button">Kontakta mig</button></a>
           </div>
         </div>
         <div class="container-right">
           <img alt="code-image" class="img-responsive" src="./assets/img/header-code-img.png">
+          <p class="construction">Sidan är under utveckling, därav lite småfel här och där. :)</p>
         </div>
       </div>
     </header>
     <div id="om-mig"></div>
-    <section class="container About col-lg-12">
+    <section class="container About">
       <section class="about row">
         <div class="picture-me col-lg-4 col-md-6 col-sm-6 col-xs-12"></div>
         <article class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-lg-offset-1">
@@ -88,15 +88,15 @@
           Jag är just i startgroparna till att starta som <strong>frilansande webbutvecklare.</strong> Jag hoppas att hålla på med det här på heltid. Det jag kan hjälpa Er med är att skapa <strong>banners</strong> och så klart det mesta inom webben. I vissa fall så kan jag även hjälpa er med att ta fram en ny <strong>logga</strong> till ert företag eller förening.<br>
           <br>
           <a href="#kontakt">Kontakta mig</a> med era förslag eller problem ni vill att jag ska hjälpa er med.<br>
-          <br>
-          <div class="fb-share-button" data-href="https://www.webbkon.se" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.webbkon.se">Dela</a></div>
-
+          <br></p>
+          <div class="fb-share-button" data-href="https://www.webbkon.se" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.webbkon.se">Dela</a>
+          </div>
+          <p></p>
         </article>
       </section>
-
     </section>
     <div id="projekt"></div>
-    <section class="gallerys container-fluid">
+    <section class="container-fluid gallerys">
       <h3>De senaste projekten</h3>
       <div class="line"></div>
       <div class="container">
@@ -111,6 +111,7 @@
               <img alt="projekt-två" class="thumbnail" src="./assets/img/projekt-tva.png">
             </a>
           </div>
+
           <div class="col-md-4 col-sm-4">
             <a class="popupimage" href="./assets/img/projekt-tre.png">
               <img alt="projekt-tre" class="thumbnail" src="./assets/img/projekt-tre.png">
@@ -124,7 +125,6 @@
               </div>
             </div>
           </div>
-
       </div>
     </section>
       <!--
@@ -184,7 +184,7 @@
 
         </div>
               -->
-    <section class="container tools">
+    <section class="container tools col-lg-12">
       <h3>Verktygen jag använder mig av</h3>
       <div class="line"></div>
       <div class="row">
@@ -218,127 +218,30 @@
     </div>
     -->
 
-    <div id="tjanster"></div>
-    <section class="container services">
-      <div class="services-text">
-        <h3>Mina tjänster</h3>
-        <div class="line"></div>
-        <p>Jag jobbar med den senaste tekniken när jag kodar fram din webbplats. Jag jobbar även på ett agilt arbetssätt.</p>
-      </div>
-      <div class="container col-lg-12 seo">
-        <div class="row">
-          <div class="col-md-6 icon"><img alt="browser icon" src="./assets/img/browser.svg"></div>
-          <div class="col-md-6 text">
-            <h4>Banners</h4>
-            <p>Jag hjälper er med banners av olika slag. Det kan vara något ni vill uttrycka på er webbplats, t.ex. <strong><u>reklam</u></strong> för någon produkt. Det är ett perfekt sätt att fånga kundernas öga.</p>
-          </div>
-        </div>
-      </div>
-      <div class="container col-lg-12 responsive">
-        <div class="row">
-          <div class="col-md-6 text">
-            <h4>SEO - Sökmotoroptimering</h4>
-            <p>Jag kommer ge er en <strong><u>sökvänlig</u></strong> webbplats som betyder att fler kan hitta till just er. Med en bra SEO så kan potentiella <strong><u>kunder</u></strong> lättare hitta er. Win-Win för er båda.</p>
-            <a href="seo.php">
-              <button class="button btn primary" type="button">Läs mer</button>
-            </a>
 
-          </div>
-          <div class="col-md-6 icon"><img alt="SEO icon" src="./assets/img/spider.svg"></div>
-        </div>
-      </div>
-      <div class="container col-lg-12 code">
-        <div class="row">
-          <div class="col-md-6 icon"><img alt="responsive icon" src="./assets/img/responsive.svg"></div>
-          <div class="col-md-6 text">
-            <h4>Responsivitet - Mobilvänlig webbplats</h4>
-            <p>Att ha en responsiv webbplats idag är ett måste. I princip alla som surfar på webben idag använder sig av <strong><u>mobiler</u></strong>. Därför är det viktigt att just eran webbplats ska få en så bra <strong><u>användarupplevelse</u></strong>som möjligt på små skärmar.</p>
-          </div>
-        </div>
-      </div>
-      <div class="container col-lg-12 design">
-        <div class="row">
-          <div class="col-md-6 text">
-            <h4>Optimerad kod för snabbare webbplats</h4>
-            <p>Det är väldigt viktigt att dagens webbplatser är snabba. Om dem inte laddat färdigt på <strong><u>4 sekunder</u></strong>, finns det en risk att 25% av användarna blir <strong><u>frustrerade och lämnar webbplatsen</u></strong>. Hårt men sant.</p>
-          </div>
-          <div class="col-md-6 icon"><img alt="speedometer icon" src="./assets/img/speedometer.svg"></div>
-        </div>
-      </div>
-    </section>
-    <div id="kontakt"></div>
-    <section class="container contact">
-      <div class="contact-text">
-        <h3>Hör av dig</h3>
-        <div class="line"></div>
-        <p>Jag hjälper dig mer än gärna med just dina ideér.</p>
-      </div>
-      <div class="container col-lg-7">
-        <div class="row">
-          <div class="map">
-            <div id="map"></div>
-          </div>
-        </div>
-      </div>
-      <div class="container col-lg-5">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="form_main">
-              <div class="contact-google-icon icons">
-                <img alt="google-pin" src="https://maps.google.com/mapfiles/ms/icons/blue-dot.png"> <span>Östersund, Sweden</span>
-              </div>
-              <div class="contact-google-icon icons">
-                <img alt="google-pin" src="./assets/img/Email-icon.png"> <span>info@webbkon.se</span>
-              </div>
-              <form id="my_form" name="my_form" onsubmit="submitForm(); return false;">
-                <div class="row">
-                  <div class="form-group">
-                    <input class="form-control" id="name" placeholder="Ditt namn" required="" type="text">
-                  </div>
-                </div>
-                <div class="form">
-                  <div class="row">
-                    <div class="form-group">
-                      <input class="form-control" id="email" placeholder="Din e-post" required="" type="email">
-                    </div>
-                  </div>
-                  <div class="form">
-                    <div class="row">
-                      <div class="form-group">
-                        <textarea class="form-control" id="message" placeholder="Vad kan jag stå till tjänst med?" required="" rows="7"></textarea>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <input class="button" id="mybtn" type="submit" value="Skicka">
-                    </div><span id="status"></span>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
     <section class="container links">
       <div class="container">
         <div class="row col-lg-12">
           <a href="https://www.twitter.com/devpaps">
           <div class="twitter tot col-lg-3 col-xs-3" data-placement="bottom" data-toggle="tooltip" title="Twitter"><img alt="twitter-icon" src="./assets/img/twitter2.png"></div></a> <a href="https://github.com/devpaps">
-          <div class="github tot col-lg-3 col-xs-3"data-placement="bottom" data-toggle="tooltip" title="Github"><img alt="Github-icon" src="./assets/img/github2.png"></div></a> <a href="http://codepen.io/Devpaps/">
-          <div class="codepen tot col-lg-3 col-xs-3"data-placement="bottom" data-toggle="tooltip" title="Codepen"><img alt="LinkedIn-icon" src="./assets/img/codepen2.png"></div></a> <a href="https://se.linkedin.com/in/lars-j%C3%B6nsson-43b3646a">
-          <div class="linkedin tot col-lg-3 col-xs-3"data-placement="bottom" data-toggle="tooltip" title="LinkedIn"><img alt="" src="./assets/img/linkedin2.png"></div></a>
+          <div class="github tot col-lg-3 col-xs-3" data-placement="bottom" data-toggle="tooltip" title="Github"><img alt="Github-icon" src="./assets/img/github2.png"></div></a> <a href="http://codepen.io/Devpaps/">
+          <div class="codepen tot col-lg-3 col-xs-3" data-placement="bottom" data-toggle="tooltip" title="Codepen"><img alt="LinkedIn-icon" src="./assets/img/codepen2.png"></div></a> <a href="https://se.linkedin.com/in/lars-j%C3%B6nsson-43b3646a">
+          <div class="linkedin tot col-lg-3 col-xs-3" data-placement="bottom" data-toggle="tooltip" title="LinkedIn"><img alt="" src="./assets/img/linkedin2.png"></div></a>
         </div>
       </div>
     </section>
+
     <section class="container footer">
       <div class="row col-lg-6 col-xs-12">
-        <strong><a href="#hem">Hem</a> <a href="#om-mig">Om mig</a> <a href="#projekt">Projekt</a> <a href="#tjanster">Tjänster</a></strong>
+        <strong><a href="#hem">Hem</a> <a href="#om-mig">Om mig</a> <a href="#projekt">Projekt</a> <a href="tjanster.php">Tjänster</a> <a href="kontakt.php">Kontakt</a></strong>
       </div>
       <hr class="row">
       <div class="row col-lg-12 copyright">
-        <strong>© 2017 – <a href="http://webbkon.se">Lars Jönsson</a></strong>
+        <strong>© 2017 –<a href="http://webbkon.se">Lars Jönsson</a></strong>
       </div>
     </section>
+
   </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
     </script>
@@ -348,16 +251,16 @@
     </script>
     <script src="assets/js/functions.js">
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDr0p_-clW9KPpMF01xEAOh36UR-DfLeSY&amp;callback=initMap">
-    </script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-91073917-1', 'auto');
+      ga('create', 'UA-91986675-1', 'auto');
       ga('send', 'pageview');
+
     </script>
+
 </body>
 </html>

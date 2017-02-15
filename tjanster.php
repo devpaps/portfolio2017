@@ -45,37 +45,62 @@
         <div class="sidenav" id="mySidenav">
           <span class="closebtn" onclick="closeNav()">&times;</span>
           <a href="./index.php">Hem</a>
-          <a href="./index.php">Om mig</a>
           <a href="./index.php">Projekt</a>
           <!--<a href="#Testamonials" class="slide-section">Referenser</a>-->
-          <a href="tjanster.php">Tjänster</a>
           <a href="kontakt.php">Kontakta mig</a>
         </div><span id="open" onclick="openNav()">Meny</span>
       </div>
     </header>
-    <div class="jumbotron seo-header">
-      <div class="container">
-        <div class="row">
-          <h1>SEO - Sökmotoroptimering</h1>
-          <h5>- Att synas är att finnas</h5>
+      <section class="container services">
+        <div class="services-text">
+          <h1>Mina tjänster</h1>
+          <div class="line"></div>
+          <p>Jag jobbar med den senaste tekniken när jag kodar fram din webbplats. Jag jobbar även på ett agilt arbetssätt.</p>
         </div>
-      </div>
-    </div>
-    <div class="container seo-info">
-      <div class="row col-lg-12">
-        <h3>Är det så viktigt?</h3>
-        <div class="column col-lg-6 seo-text">
-          <p>Det bästa sättet att marknadsföra sig idag är via sökmotoroptimering. Tänk att du har startat ett eget företag, du vill anonnsera lokala tidningar eller dylikt. Du betalar en summa som sedan garanterar att din annons är synlig ett visst antal dagar eller veckor. När annonsen försvunnit så blir din förtjänst mindre eftersom du når ut till mindre kunder.</p>
-          <br>
-          <p>Men med sökmotoroptimering så är ditt företag öppet "dygnet runt". Du kommer synas i sökmotorer även om placeringen inte kan lovas att den blir högst upp. Det beror på flera faktorer. Med andra ord så är en bra sökmotoroptimering en långsiktig investering.</p>
-          <br>
-          <p>Jag kommer hjälpa dig att nå ut till dina kunder som är i behov av just er tjänst.</p>
+        <div class="container col-lg-12 seo">
+          <div class="row">
+            <div class="col-md-6 icon"><img alt="browser icon" src="./assets/img/browser.svg"></div>
+            <div class="col-md-6 text">
+              <h4>Banners</h4>
+              <p>Jag hjälper er med banners av olika slag. Det kan vara något ni vill uttrycka på er webbplats, t.ex. <strong><u>reklam</u></strong> för någon produkt. Det är ett perfekt sätt att fånga kundernas öga.</p>
+                <a href="banner.php">
+                  <button class="button btn primary" type="button">Läs mer</button>
+                </a>
+            </div>
+          </div>
         </div>
-        <div class="row col-lg-6 seo-nummer-ett">
-          <img src="./assets/img/award.svg" alt="SEO nummer ett">
+        <div class="container col-lg-12 responsive">
+          <div class="row">
+            <div class="col-md-6 text">
+              <h4>SEO - Sökmotoroptimering</h4>
+              <p>Jag kommer ge er en <strong><u>sökvänlig</u></strong> webbplats som betyder att fler kan hitta till just er. Med en bra SEO så kan potentiella <strong><u>kunder</u></strong> lättare hitta er. Win-Win för er båda.</p>
+              <a href="seo.php">
+                <button class="button btn primary" type="button">Läs mer</button>
+              </a>
+
+            </div>
+            <div class="col-md-6 icon"><img alt="SEO icon" src="./assets/img/spider.svg"></div>
+          </div>
         </div>
-      </div>
-    </div>
+        <div class="container col-lg-12 code">
+          <div class="row">
+            <div class="col-md-6 icon"><img alt="responsive icon" src="./assets/img/responsive.svg"></div>
+            <div class="col-md-6 text">
+              <h4>Responsivitet - Mobilvänlig webbplats</h4>
+              <p>Att ha en responsiv webbplats idag är ett måste. I princip alla som surfar på webben idag använder sig av <strong><u>mobiler</u></strong>. Därför är det viktigt att just eran webbplats ska få en så bra <strong><u>användarupplevelse</u></strong>som möjligt på små skärmar.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container col-lg-12 design">
+          <div class="row">
+            <div class="col-md-6 text">
+              <h4>Optimerad kod för snabbare webbplats</h4>
+              <p>Det är väldigt viktigt att dagens webbplatser är snabba. Om dem inte laddat färdigt på <strong><u>4 sekunder</u></strong>, finns det en risk att 25% av användarna blir <strong><u>frustrerade och lämnar webbplatsen</u></strong>. Hårt men sant.</p>
+            </div>
+            <div class="col-md-6 icon"><img alt="speedometer icon" src="./assets/img/speedometer.svg"></div>
+          </div>
+        </div>
+      </section>
 
 
 

@@ -45,38 +45,65 @@
         <div class="sidenav" id="mySidenav">
           <span class="closebtn" onclick="closeNav()">&times;</span>
           <a href="./index.php">Hem</a>
-          <a href="./index.php">Om mig</a>
           <a href="./index.php">Projekt</a>
           <!--<a href="#Testamonials" class="slide-section">Referenser</a>-->
           <a href="tjanster.php">Tjänster</a>
-          <a href="kontakt.php">Kontakta mig</a>
         </div><span id="open" onclick="openNav()">Meny</span>
       </div>
     </header>
-    <div class="jumbotron seo-header">
-      <div class="container">
-        <div class="row">
-          <h1>SEO - Sökmotoroptimering</h1>
-          <h5>- Att synas är att finnas</h5>
-        </div>
-      </div>
-    </div>
-    <div class="container seo-info">
-      <div class="row col-lg-12">
-        <h3>Är det så viktigt?</h3>
-        <div class="column col-lg-6 seo-text">
-          <p>Det bästa sättet att marknadsföra sig idag är via sökmotoroptimering. Tänk att du har startat ett eget företag, du vill anonnsera lokala tidningar eller dylikt. Du betalar en summa som sedan garanterar att din annons är synlig ett visst antal dagar eller veckor. När annonsen försvunnit så blir din förtjänst mindre eftersom du når ut till mindre kunder.</p>
-          <br>
-          <p>Men med sökmotoroptimering så är ditt företag öppet "dygnet runt". Du kommer synas i sökmotorer även om placeringen inte kan lovas att den blir högst upp. Det beror på flera faktorer. Med andra ord så är en bra sökmotoroptimering en långsiktig investering.</p>
-          <br>
-          <p>Jag kommer hjälpa dig att nå ut till dina kunder som är i behov av just er tjänst.</p>
-        </div>
-        <div class="row col-lg-6 seo-nummer-ett">
-          <img src="./assets/img/award.svg" alt="SEO nummer ett">
-        </div>
-      </div>
-    </div>
 
+    <section class="container contact">
+      <div class="contact-text">
+        <h1>Hör av dig</h1>
+        <div class="line"></div>
+        <p>Jag hjälper dig mer än gärna med just dina ideér.</p>
+      </div>
+      <div class="container col-lg-7">
+        <div class="row">
+          <div class="map">
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container col-lg-5">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="form_main">
+              <div class="contact-google-icon icons">
+                <img alt="google-pin" src="https://maps.google.com/mapfiles/ms/icons/blue-dot.png"> <span>Östersund, Sweden</span>
+              </div>
+              <div class="contact-google-icon icons">
+                <img alt="google-pin" src="./assets/img/Email-icon.png"> <span>info@webbkon.se</span>
+              </div>
+              <form id="my_form" name="my_form" onsubmit="submitForm(); return false;">
+                <div class="row">
+                  <div class="form-group">
+                    <input class="form-control" id="name" placeholder="Ditt namn" required="" type="text">
+                  </div>
+                </div>
+                <div class="form">
+                  <div class="row">
+                    <div class="form-group">
+                      <input class="form-control" id="email" placeholder="Din e-post" required="" type="email">
+                    </div>
+                  </div>
+                  <div class="form">
+                    <div class="row">
+                      <div class="form-group">
+                        <textarea class="form-control" id="message" placeholder="Vad kan jag stå till tjänst med?" required="" rows="7"></textarea>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <input class="button" id="mybtn" type="submit" value="Skicka">
+                    </div><span id="status"></span>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
@@ -102,7 +129,8 @@
     </script>
     <script src="assets/js/functions.js">
     </script>
-
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDr0p_-clW9KPpMF01xEAOh36UR-DfLeSY&amp;callback=initMap">
+    </script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
