@@ -1,19 +1,5 @@
 "use strict";
 
-$(document).ready(function() {
-
-    var $wrapper = $('.wrapper');
-
-    $wrapper.css('display', 'block');
-
-    $wrapper.one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend", function() {
-    $(this).css('opacity', '1');
-});
-
-});
-
-
-
 function openNav() {
     document.getElementById("mySidenav").style.marginLeft = "0px", document.getElementById("open").style.visibility = "hidden"
 }

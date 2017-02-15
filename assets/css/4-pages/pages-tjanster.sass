@@ -1,0 +1,32 @@
+.services
+  padding-top: 1rem
+  .services-text
+    margin: 5rem 0 5rem
+    h1, p
+      text-align: center
+    h1
+      font-weight: 500
+
+  .container
+    @media (max-width: 768px)
+      &:nth-of-type(odd) .row
+        display: flex
+        flex-direction: column-reverse
+    .icon
+      background: transparent
+      text-align: center
+      height: 196px
+      img
+        width: 140px
+        height: inherit
+    .text
+      background: antiquewhite
+      padding: 3rem
+      box-shadow: 0 10px 10px -5px #ccc
+      @media (max-width: 768px)
+        margin: 3rem 0
+      h4, p
+        text-align: left
+      u
+        border-bottom: 1px dotted #000
+        text-decoration: none

@@ -45,7 +45,7 @@
         <div class="sidenav" id="mySidenav">
           <span class="closebtn" onclick="closeNav()">&times;</span>
           <a href="./index.php">Hem</a>
-          <a href="./index.php">Om mig</a>
+          <a href="/index.php#om-mig">Om mig</a>
           <a href="./index.php">Projekt</a>
           <!--<a href="#Testamonials" class="slide-section">Referenser</a>-->
           <a href="tjanster.php">Tjänster</a>
@@ -53,26 +53,22 @@
         </div><span id="open" onclick="openNav()">Meny</span>
       </div>
     </header>
-    <div class="jumbotron seo-header">
+    <div class="jumbotron banner-header">
       <div class="container">
         <div class="row">
-          <h1>SEO - Sökmotoroptimering</h1>
-          <h5>- Att synas är att finnas</h5>
+          <h1>Banners</h1>
+          <h5>- Att fånga besökarens uppmärksamhet</h5>
         </div>
       </div>
     </div>
-    <div class="container seo-info">
+    <div class="container banner-info">
       <div class="row col-lg-12">
-        <h3>Är det så viktigt?</h3>
-        <div class="column col-lg-6 seo-text">
-          <p>Det bästa sättet att marknadsföra sig idag är via sökmotoroptimering. Tänk att du har startat ett eget företag, du vill anonnsera lokala tidningar eller dylikt. Du betalar en summa som sedan garanterar att din annons är synlig ett visst antal dagar eller veckor. När annonsen försvunnit så blir din förtjänst mindre eftersom du når ut till mindre kunder.</p>
-          <br>
-          <p>Men med sökmotoroptimering så är ditt företag öppet "dygnet runt". Du kommer synas i sökmotorer även om placeringen inte kan lovas att den blir högst upp. Det beror på flera faktorer. Med andra ord så är en bra sökmotoroptimering en långsiktig investering.</p>
-          <br>
-          <p>Jag kommer hjälpa dig att nå ut till dina kunder som är i behov av just er tjänst.</p>
+        <h3>Se hit!</h3>
+        <div class="column col-lg-6 banner-text">
+          <p>Jag återkommer med mer info så småningom.</p>
         </div>
-        <div class="row col-lg-6 seo-nummer-ett">
-          <img src="./assets/img/award.svg" alt="SEO nummer ett">
+        <div class="row col-lg-6 banner-nummer-ett">
+          <img src="./assets/img/banner.svg" alt="banner-bild">
         </div>
       </div>
     </div>

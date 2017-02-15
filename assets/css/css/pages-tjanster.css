@@ -1,0 +1,31 @@
+.services {
+  padding-top: 1rem; }
+  .services .services-text {
+    margin: 5rem 0 5rem; }
+    .services .services-text h3, .services .services-text p {
+      text-align: center; }
+    .services .services-text h3 {
+      font-weight: 500; }
+  @media (max-width: 768px) {
+    .services .container:nth-of-type(odd) .row {
+      display: flex;
+      flex-direction: column-reverse; } }
+  .services .container .icon {
+    background: transparent;
+    text-align: center;
+    height: 196px; }
+    .services .container .icon img {
+      width: 140px;
+      height: inherit; }
+  .services .container .text {
+    background: antiquewhite;
+    padding: 3rem;
+    box-shadow: 0 10px 10px -5px #ccc; }
+    @media (max-width: 768px) {
+      .services .container .text {
+        margin: 3rem 0; } }
+    .services .container .text h4, .services .container .text p {
+      text-align: left; }
+    .services .container .text u {
+      border-bottom: 1px dotted #000;
+      text-decoration: none; }
