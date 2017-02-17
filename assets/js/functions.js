@@ -1,12 +1,3 @@
-"use strict";
-
-function openNav() {
-    document.getElementById("mySidenav").style.marginLeft = "0px", document.getElementById("open").style.visibility = "hidden"
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.marginLeft = "-250px", document.getElementById("open").style.visibility = "visible"
-}
 
 function initMap() {
     var a = {
@@ -46,4 +37,9 @@ $(document).ready(function() {
     })
 }), $(document).ready(function() {
     $('[data-toggle="tooltip"]').tooltip()
+});
+
+
+$('.handle').on('click', function(){
+  $('.navbar ul').toggleClass('showing');
 });

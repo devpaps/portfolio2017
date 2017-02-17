@@ -1,0 +1,38 @@
+.gallerys {
+  padding-top: 5rem; }
+  @media (max-width: 768px) {
+    .gallerys {
+      height: auto; } }
+  .gallerys h1, .gallerys p {
+    text-align: center; }
+  .gallerys h3 {
+    font-weight: 500; }
+  .gallerys .container .row {
+    margin: 0;
+    padding: 0 0.5rem; }
+    .gallerys .container .row .col-md-4 {
+      margin-top: 20px; }
+      .gallerys .container .row .col-md-4 img {
+        display: block;
+        height: auto;
+        max-width: 100%; }
+
+/****************Modal*************** */
+.modal {
+  text-align: center;
+  padding: 0 !important; }
+  .modal:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px; }
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middl; }
+  .modal-dialog .modal-content {
+    background: #4D515E; }
+  .modal-dialog img {
+    margin: auto; }
