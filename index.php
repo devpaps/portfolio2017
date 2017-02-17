@@ -51,36 +51,46 @@
   <div class="container-fluid">
     <header>
       <div class="collector navbar">
-        <div class="sidenav" id="mySidenav">
-          <span class="closebtn" onclick="closeNav()">&times;</span>
-          <a href="./index.php#hem">Hem</a>
-          <a href="#om-mig">Om mig</a>
-          <a href="#projekt">Projekt</a>
-          <!--<a href="#Testamonials" class="slide-section">Referenser</a>-->
-          <a href="tjanster.php">Tjänster</a>
-          <a href="kontakt.php">Kontakta mig</a>
-        </div><span id="open" onclick="openNav()">Meny</span>
+        <ul>
+          <li><a class="active" href="./index.php">Hem</a></li>
+          <li><a href="#om-mig">Om mig</a></li>
+          <li><a href="projekt.php">Projekt</a></li>
+          <li><a href="tjanster.php">Tjänster</a></li>
+          <li><a href="kontakt.php">Kontakta mig</a></li>
+        </ul>
+        <div class="handle">Meny</div>
+        <!--<a href="#Testamonials" class="slide-section">Referenser</a>-->
       </div>
+    </header>
       <div id="hem"></div>
       <div class="hero-img">
         <div class="container">
-          <h1 class="myName">Lars Jönsson</h1>
-          <h4 class="frontEnd">Frilansande Webbutvecklare</h4>
-          <div class="hire-me">
-            <a class="slide-section" href="kontakt.php"><button class="btn btn-danger" type="button">Kontakta mig</button></a>
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="myName">Lars Jönsson</h1>
+              <h4 class="frontEnd">Frilansande Webbutvecklare</h4>
+              <p>-Jag sysslar med webbutveckling hemifrån mitt hus på landet. Det jag kan hjälpa dig med är,
+                <u><strong><a href="seo.php">SEO-analys</a></strong></u>,
+                <u><strong><a href="#">Wordpress</a></strong></u>,
+                <u><strong><a href="banner.php">Banners</a></strong></u> och skapa
+                <u><strong><a href="index.php#projekt">hemsidor</a></strong></u> utifrån era ideér. Tveka inte att höra av er om det är något annat ni vill ha hjälp med inom webben.</p>
+              <div class="hire-me">
+                <a class="slide-section" href="kontakt.php"><button class="btn btn-primary" type="button">Kontakta mig</button></a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img alt="code-image" class="code-image" src="./assets/img/header-code-img.png">
+              <p class="construction">Sidan är under utveckling, därav lite småfel här och där. :)</p>
+            </div>
           </div>
         </div>
-        <div class="container-right">
-          <img alt="code-image" class="img-responsive" src="./assets/img/header-code-img.png">
-          <p class="construction">Sidan är under utveckling, därav lite småfel här och där. :)</p>
-        </div>
       </div>
-    </header>
+
     <div id="om-mig"></div>
     <section class="container About">
       <section class="about row">
-        <div class="picture-me col-lg-4 col-md-6 col-sm-6 col-xs-12"></div>
-        <article class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-lg-offset-1">
+        <div class="picture-me col-lg-6"></div>
+        <article class="col-lg-6">
           <h3>Lite om mig</h3>
           <div class="line"></div>
           <p>Jag har sysslat med webbutveckling sedan cirka ett år tillbaka nu. Vägen hit har varit den mest givande jag varit med om. Att få hålla på med det jag älskar är helt underbart.<br>
@@ -95,39 +105,8 @@
         </article>
       </section>
     </section>
-    <div id="projekt"></div>
-    <section class="container-fluid gallerys">
-      <h3>De senaste projekten</h3>
-      <div class="line"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-4">
-            <a class="popupimage" href="./assets/img/projekt-ett.png">
-              <img alt="projekt-ett" class="thumbnail" src="./assets/img/projekt-ett.png">
-            </a>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <a class="popupimage" href="./assets/img/projekt-tva.png">
-              <img alt="projekt-två" class="thumbnail" src="./assets/img/projekt-tva.png">
-            </a>
-          </div>
 
-          <div class="col-md-4 col-sm-4">
-            <a class="popupimage" href="./assets/img/projekt-tre.png">
-              <img alt="projekt-tre" class="thumbnail" src="./assets/img/projekt-tre.png">
-            </a>
-          </div>
-        </div>
-          <div class="modal fade">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <img class="img-responsive" src="">
-              </div>
-            </div>
-          </div>
-      </div>
-    </section>
-      <!--
+          <!--
         <div id="Testamonials">
           <section class="testamonials container">
               <div class="carousel slide" data-ride="carousel" id="text-carousel">
@@ -226,15 +205,15 @@
           <a href="https://www.twitter.com/devpaps">
           <div class="twitter tot col-lg-3 col-xs-3" data-placement="bottom" data-toggle="tooltip" title="Twitter"><img alt="twitter-icon" src="./assets/img/twitter2.png"></div></a> <a href="https://github.com/devpaps">
           <div class="github tot col-lg-3 col-xs-3" data-placement="bottom" data-toggle="tooltip" title="Github"><img alt="Github-icon" src="./assets/img/github2.png"></div></a> <a href="http://codepen.io/Devpaps/">
-          <div class="codepen tot col-lg-3 col-xs-3" data-placement="bottom" data-toggle="tooltip" title="Codepen"><img alt="LinkedIn-icon" src="./assets/img/codepen2.png"></div></a> <a href="https://se.linkedin.com/in/lars-j%C3%B6nsson-43b3646a">
-          <div class="linkedin tot col-lg-3 col-xs-3" data-placement="bottom" data-toggle="tooltip" title="LinkedIn"><img alt="" src="./assets/img/linkedin2.png"></div></a>
+          <div class="codepen tot col-lg-3 col-xs-3" data-placement="bottom" data-toggle="tooltip" title="Codepen"><img alt="codepen-icon" src="./assets/img/codepen2.png"></div></a> <a href="https://se.linkedin.com/in/lars-j%C3%B6nsson-43b3646a">
+          <div class="linkedin tot col-lg-3 col-xs-3" data-placement="bottom" data-toggle="tooltip" title="LinkedIn"><img alt="LinkedIn-icon" src="./assets/img/linkedin2.png"></div></a>
         </div>
       </div>
     </section>
 
     <section class="container footer">
       <div class="row col-lg-6 col-xs-12">
-        <strong><a href="#hem">Hem</a> <a href="#om-mig">Om mig</a> <a href="#projekt">Projekt</a> <a href="tjanster.php">Tjänster</a> <a href="kontakt.php">Kontakt</a></strong>
+        <strong><a href="./index.php">Hem</a> <a href="#om-mig">Om mig</a> <a href="projekt.php">Projekt</a> <a href="tjanster.php">Tjänster</a> <a href="kontakt.php">Kontakt</a></strong>
       </div>
       <hr class="row">
       <div class="row col-lg-12 copyright">

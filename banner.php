@@ -42,15 +42,15 @@
   <div class="container-fluid">
     <header>
       <div class="collector navbar">
-        <div class="sidenav" id="mySidenav">
-          <span class="closebtn" onclick="closeNav()">&times;</span>
-          <a href="./index.php">Hem</a>
-          <a href="/index.php#om-mig">Om mig</a>
-          <a href="./index.php">Projekt</a>
-          <!--<a href="#Testamonials" class="slide-section">Referenser</a>-->
-          <a href="tjanster.php">Tjänster</a>
-          <a href="kontakt.php">Kontakta mig</a>
-        </div><span id="open" onclick="openNav()">Meny</span>
+        <ul>
+          <li><a href="./index.php">Hem</a></li>
+          <li><a href="#om-mig">Om mig</a></li>
+          <li><a href="projekt.php">Projekt</a></li>
+          <li><a class="active" href="tjanster.php">Tjänster</a></li>
+          <li><a href="kontakt.php">Kontakta mig</a></li>
+        </ul>
+        <div class="handle">Meny</div>
+        <!--<a href="#Testamonials" class="slide-section">Referenser</a>-->
       </div>
     </header>
     <div class="jumbotron banner-header">
@@ -82,7 +82,7 @@
 
     <section class="container footer">
       <div class="row col-lg-6 col-xs-12">
-        <strong><a href="./index.php">Hem</a> <a href="./index.php#om-mig">Om mig</a> <a href="./index.php#projekt">Projekt</a> <a href="./index.php#tjanster">Tjänster</a></strong>
+        <strong><a href="./index.php">Hem</a> <a href="./index.php">Om mig</a> <a href="./projekt.php">Projekt</a> <a href="./tjanster.php">Tjänster</a> <a href="./kontakt.php">Kontakt</a></strong>
       </div>
       <hr class="row">
       <div class="row col-lg-12 copyright">
