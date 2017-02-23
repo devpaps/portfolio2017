@@ -9,11 +9,11 @@
   <meta name="description" content="Lars J&#246;nsson &#228;r en frilansande webbutvecklare fr&#229;n den centrala delen av Sverige, &#214;stersund. Jag tillhandahåller tjänster som banners och webbsidor.">
   <meta name="keywords" content="webbdesigner, webdesigner, webdesign, design, webbutvecklaing, webbutveckling, hemsida, hemsidor, webbplatser, webbplats, webbsida, Östersund, Jämtland, webbproduktion, portfolio">
   <meta name="google-site-verification" content="EKHpD342_nh74tp-EzJVa5Klxs21y4h8IzMn2cyINf4">
-  <link rel="canonical" href="https://www.webbkon.se" />
+  <link rel="canonical" href="http://www.xn--larsjnsson-icb.se" />
   <meta name="theme-color" content="#fff">
-  <meta property="og:url" content="https://www.webbkon.se">
+  <meta property="og:url" content="http://www.xn--larsjnsson-icb.se">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://www.webbkon.se/assets/img/me.jpg">
+  <meta property="og:image" content="http://www.xn--larsjnsson-icb.se/assets/img/me.jpg">
   <meta property="og:title" content="Webbutvecklaren Lars vill hjälpa dig.">
   <meta property="og:description" content="Jag är en frilansande webbutvecklare från den centrala delen av Sverige, Östersund. Jag tillhandahåller tjänster som banners och webbsidor.">
   <meta property="fb:app_id" content="765053766992754">
@@ -43,11 +43,11 @@
     <header>
       <div class="collector navbar">
         <ul>
-          <li><a href="./index.php">Hem</a></li>
-          <li><a href="./index.php">Om mig</a></li>
-          <li><a href="projekt.php">Projekt</a></li>
-          <li><a href="tjanster.php">Tjänster</a></li>
-          <li><a class="active" href="kontakt.php">Kontakta mig</a></li>
+          <li><a href="./">Hem</a></li>
+          <li><a href="/#om-mig">Om mig</a></li>
+          <li><a href="projekt">Projekt</a></li>
+          <li><a href="tjänster">Tjänster</a></li>
+          <li><a class="active" href="kontakt">Kontakta mig</a></li>
         </ul>
         <div class="handle">Meny</div>
         <!--<a href="#Testamonials" class="slide-section">Referenser</a>-->
@@ -89,17 +89,19 @@
                       <input class="form-control" id="email" placeholder="Din e-post" required="" type="email">
                     </div>
                   </div>
+                </div>
                   <div class="form">
                     <div class="row">
                       <div class="form-group">
                         <textarea class="form-control" id="message" placeholder="Vad kan jag stå till tjänst med?" required="" rows="7"></textarea>
                       </div>
                     </div>
-                    <div class="row">
-                      <input class="button" id="mybtn" type="submit" value="Skicka">
-                    </div><span id="status"></span>
                   </div>
-                </div>
+                    <div class="row">
+                      <input id="mybtn" class="button btn btn-primary" type="submit" value="Skicka">
+                    </div><span id="status"></span>
+
+
               </form>
             </div>
           </div>
@@ -115,11 +117,11 @@
 
     <section class="container footer">
       <div class="row col-lg-6 col-xs-12">
-        <strong><a href="./index.php">Hem</a> <a href="./index.php">Om mig</a> <a href="./projekt.php">Projekt</a> <a href="./index.php">Tjänster</a> <a href="./kontakt.php">Kontakt</a></strong>
+        <strong><a href="/">Hem</a> <a href="/#om-mig">Om mig</a> <a href="projekt">Projekt</a> <a href="tjänster">Tjänster</a> <a href="kontakt">Kontakt</a></strong>
       </div>
       <hr class="row">
       <div class="row col-lg-12 copyright">
-        <strong>© 2017 – <a href="http://webbkon.se">Lars Jönsson</a></strong>
+        <strong>© 2017 – <a href="http://larsjönsson.se">Lars Jönsson</a></strong>
       </div>
     </section>
   </div>

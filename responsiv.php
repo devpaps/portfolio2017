@@ -9,11 +9,11 @@
   <meta name="description" content="Lars J&#246;nsson &#228;r en frilansande webbutvecklare fr&#229;n den centrala delen av Sverige, &#214;stersund. Jag tillhandahåller tjänster som banners och webbsidor.">
   <meta name="keywords" content="webbdesigner, webdesigner, webdesign, design, webbutvecklaing, webbutveckling, hemsida, hemsidor, webbplatser, webbplats, webbsida, Östersund, Jämtland, webbproduktion, portfolio">
   <meta name="google-site-verification" content="EKHpD342_nh74tp-EzJVa5Klxs21y4h8IzMn2cyINf4">
-  <link rel="canonical" href="https://www.webbkon.se" />
+  <link rel="canonical" href="http://www.xn--larsjnsson-icb.se" />
   <meta name="theme-color" content="#fff">
-  <meta property="og:url" content="https://www.webbkon.se">
+  <meta property="og:url" content="http://www.xn--larsjnsson-icb.se">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://www.webbkon.se/assets/img/me.jpg">
+  <meta property="og:image" content="http://www.xn--larsjnsson-icb.se/assets/img/me.jpg">
   <meta property="og:title" content="Webbutvecklaren Lars vill hjälpa dig.">
   <meta property="og:description" content="Jag är en frilansande webbutvecklare från den centrala delen av Sverige, Östersund. Jag tillhandahåller tjänster som banners och webbsidor.">
   <meta property="fb:app_id" content="765053766992754">
@@ -43,66 +43,35 @@
     <header>
       <div class="collector navbar">
         <ul>
-          <li><a href="./index.php">Hem</a></li>
-          <li><a href="#om-mig">Om mig</a></li>
-          <li><a href="projekt.php">Projekt</a></li>
-          <li><a class="active" href="tjanster.php">Tjänster</a></li>
-          <li><a href="kontakt.php">Kontakta mig</a></li>
+          <li><a href="/">Hem</a></li>
+          <li><a href="/#om-mig">Om mig</a></li>
+          <li><a href="projekt">Projekt</a></li>
+          <li><a class="active" href="tjänster">Tjänster</a></li>
+          <li><a href="kontakt">Kontakta mig</a></li>
         </ul>
         <div class="handle">Meny</div>
         <!--<a href="#Testamonials" class="slide-section">Referenser</a>-->
       </div>
     </header>
-      <section class="container services">
-        <div class="services-text">
-          <h1>Mina tjänster</h1>
-          <div class="line"></div>
-          <p>Jag jobbar med den senaste tekniken när jag kodar fram din webbplats. Jag jobbar även på ett agilt arbetssätt.</p>
+    <div class="jumbotron seo-header">
+      <div class="container">
+        <div class="row">
+          <h1>Responsiv Webbsida</h1>
+          <h5>- Optimerad för visning på mobila enheter</h5>
         </div>
-        <div class="container col-lg-12 seo">
-          <div class="row">
-            <div class="col-md-6 icon"><img alt="browser icon" src="./assets/img/browser.svg"></div>
-            <div class="col-md-6 text">
-              <h4>Banners</h4>
-              <p>Jag hjälper er med banners av olika slag. Det kan vara något ni vill uttrycka på er webbplats, t.ex. <strong><u>reklam</u></strong> för någon produkt. Det är ett perfekt sätt att fånga kundernas öga.</p>
-                <a href="banner.php">
-                  <button class="button btn primary" type="button">Läs mer</button>
-                </a>
-            </div>
-          </div>
+      </div>
+    </div>
+    <div class="container seo-info">
+      <div class="row col-lg-12">
+        <h3>Återkommer</h3>
+        <div class="column col-lg-6 seo-text">
+          <p>I'll be back...</p>
         </div>
-        <div class="container col-lg-12 responsive">
-          <div class="row">
-            <div class="col-md-6 text">
-              <h4>SEO - Sökmotoroptimering</h4>
-              <p>Jag kommer ge er en <strong><u>sökvänlig</u></strong> webbplats som betyder att fler kan hitta till just er. Med en bra SEO så kan potentiella <strong><u>kunder</u></strong> lättare hitta er. Win-Win för er båda.</p>
-              <a href="seo.php">
-                <button class="button btn primary" type="button">Läs mer</button>
-              </a>
-
-            </div>
-            <div class="col-md-6 icon"><img alt="SEO icon" src="./assets/img/spider.svg"></div>
-          </div>
+        <div class="row col-lg-6 seo-nummer-ett">
+          <img src="./assets/img/responsive-image.svg" alt="Responsiv-bild-mobil">
         </div>
-        <div class="container col-lg-12 code">
-          <div class="row">
-            <div class="col-md-6 icon"><img alt="responsive icon" src="./assets/img/responsive.svg"></div>
-            <div class="col-md-6 text">
-              <h4>Responsivitet - Mobilvänlig webbplats</h4>
-              <p>Att ha en responsiv webbplats idag är ett måste. I princip alla som surfar på webben idag använder sig av <strong><u>mobiler</u></strong>. Därför är det viktigt att just eran webbplats ska få en så bra <strong><u>användarupplevelse</u></strong>som möjligt på små skärmar.</p>
-            </div>
-          </div>
-        </div>
-        <div class="container col-lg-12 design">
-          <div class="row">
-            <div class="col-md-6 text">
-              <h4>Optimerad kod för snabbare webbplats</h4>
-              <p>Det är väldigt viktigt att dagens webbplatser är snabba. Om dem inte laddat färdigt på <strong><u>4 sekunder</u></strong>, finns det en risk att 25% av användarna blir <strong><u>frustrerade och lämnar webbplatsen</u></strong>. Hårt men sant.</p>
-            </div>
-            <div class="col-md-6 icon"><img alt="speedometer icon" src="./assets/img/speedometer.svg"></div>
-          </div>
-        </div>
-      </section>
+      </div>
+    </div>
 
 
 
@@ -113,11 +82,11 @@
 
     <section class="container footer">
       <div class="row col-lg-6 col-xs-12">
-        <strong><a href="./index.php">Hem</a> <a href="./index.php">Om mig</a> <a href="./projekt.php">Projekt</a> <a href="./tjanster.php">Tjänster</a> <a href="./kontakt.php">Kontakt</a></strong> 
+        <strong><a href="/">Hem</a> <a href="/#om-mig">Om mig</a> <a href="projekt">Projekt</a> <a href="tjänster">Tjänster</a> <a href="kontakt">Kontakt</a></strong>
       </div>
       <hr class="row">
       <div class="row col-lg-12 copyright">
-        <strong>© 2017 – <a href="http://webbkon.se">Lars Jönsson</a></strong>
+        <strong>© 2017 – <a href="http://larsjönsson.se">Lars Jönsson</a></strong>
       </div>
     </section>
   </div>

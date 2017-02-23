@@ -3,17 +3,17 @@ if( isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']) 
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$message = nl2br($_POST['message']);
-	$to = "crymeat@me.com";
+	$to = "info@webbkon.se";
 	$from = $email;
 	$subject = 'Mail från webbsidan';
 	$message = '<b>Name:</b> '.$name.' <br><b>Email:</b> '.$email.' <p>'.$message.'</p>';
 	$headers = "From: $from\n";
 	$headers .= "MIME-Version: 1.0\n";
-	$headers .= "Content-type: text/html; charset=iso-8859-1\n";
+	$headers .= "Content-type: text/html; charset=UTF-8\n";
 	if( mail($to, $subject, $message, $headers) ){
-		echo "success";
+		echo "Skickat!";
 	} else {
-		echo "The server <strong>failed</strong> to send the message. Please try again later.";
+		echo "Nu blev det något <strong>galet</strong>. Maila mig på info@webbkon.se så ska jag titta närmare på felet, Tack.";
 	}
 }
 ?>

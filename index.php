@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
   <meta name="author" content="Lars Jönsson" >
-  <meta name="description" content="Lars J&#246;nsson &#228;r en frilansande webbutvecklare fr&#229;n den centrala delen av Sverige, &#214;stersund. Jag tillhandahåller tjänster som banners och webbsidor.">
+  <meta name="description" content="Lars J&#246;nsson &#228;r en frilansande webbutvecklare fr&#229;n den centrala delen av Sverige, &#214;stersund. Jag tillhandahåller tjänster som webbsidor, banners samt diverse småjobb.">
   <meta name="keywords" content="webbdesigner, webdesigner, webdesign, design, webbutvecklaing, webbutveckling, hemsida, hemsidor, webbplatser, webbplats, webbsida, Östersund, Jämtland, webbproduktion, portfolio">
-  <link rel="canonical" href="https://www.webbkon.se" />
+  <link rel="canonical" href="http://xn--larsjnsson-icb.se">
   <meta name="theme-color" content="#fff">
-  <meta property="og:url" content="https://www.larsjönsson.se">
+  <meta property="og:url" content="http://xn--larsjnsson-icb.se">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://www.larsjönsson.se/assets/img/me.jpg">
+  <meta property="og:image" content="http://xn--larsjnsson-icb.se/assets/img/me.jpg">
   <meta property="og:title" content="Webbutvecklaren Lars vill hjälpa dig.">
   <meta property="og:description" content="Jag är en frilansande webbutvecklare från den centrala delen av Sverige, Östersund. Jag tillhandahåller tjänster som banners och webbsidor.">
   <meta property="fb:app_id" content="765053766992754">
@@ -32,37 +32,32 @@
   <link rel="manifest" href="./assets/img/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:500">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-  <!-- Facebook SDK -->
-  <div id="fb-root"></div>
-  <script>
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.8";
-    fjs.parentNode.insertBefore(js, fjs)
-  }(document, 'script', 'facebook-jssdk'));
-  </script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.8&appId=765053766992754";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   <div class="container-fluid">
     <header>
       <div class="collector navbar">
         <ul>
-          <li><a class="active" href="./index.php">Hem</a></li>
-          <li><a href="#om-mig">Om mig</a></li>
-          <li><a href="projekt.php">Projekt</a></li>
-          <li><a href="tjanster.php">Tjänster</a></li>
-          <li><a href="kontakt.php">Kontakta mig</a></li>
+          <li><a class="active" href="/">Hem</a></li>
+          <li><a href="/#om-mig">Om mig</a></li>
+          <li><a href="projekt">Projekt</a></li>
+          <li><a href="tjänster">Tjänster</a></li>
+          <li><a href="kontakt">Kontakta mig</a></li>
         </ul>
         <div class="handle">Meny</div>
         <!--<a href="#Testamonials" class="slide-section">Referenser</a>-->
       </div>
     </header>
-      <div id="hem"></div>
       <div class="hero-img">
         <div class="container">
           <div class="row">
@@ -70,12 +65,12 @@
               <h1 class="myName">Lars Jönsson</h1>
               <h4 class="frontEnd">Frilansande Webbutvecklare</h4>
               <p>-Jag sysslar med webbutveckling hemifrån mitt hus på landet. Det jag kan hjälpa dig med är,
-                <u><strong><a href="seo.php">SEO-analys</a></strong></u>,
-                <u><strong><a href="#">Wordpress</a></strong></u>,
-                <u><strong><a href="banner.php">Banners</a></strong></u> och skapa
-                <u><strong><a href="index.php#projekt">hemsidor</a></strong></u> utifrån era ideér. Tveka inte att höra av er om det är något annat ni vill ha hjälp med inom webben.</p>
+                <u><strong><a class="lead-info" href="seo">SEO-analys</a></strong></u>,
+                <u><strong><a class="lead-info" href="responsiv">Responsiva webbsidor</a></strong></u>,
+                <u><strong><a class="lead-info" href="banner">Banners</a></strong></u>. Spana in mina
+                <u><strong><a class="lead-info" href="projekt">Projekt</a></strong></u>. Det är relativt tomt just nu, men jag kommer fylla på med projekt vart efter. Tveka inte att höra av er om det är något annat ni vill ha hjälp med inom webben.</p>
               <div class="hire-me">
-                <a class="slide-section" href="kontakt.php"><button class="btn btn-primary" type="button">Kontakta mig</button></a>
+                <a class="button btn btn-primary" href="kontakt">Kontakta mig</a>
               </div>
             </div>
             <div class="col-lg-6">
@@ -89,19 +84,21 @@
     <div id="om-mig"></div>
     <section class="container About">
       <section class="about row">
-        <div class="picture-me col-lg-6"></div>
-        <article class="col-lg-6">
+        <div class="picture-me col-lg-5"></div>
+        <article class="col-lg-6 col-lg-offset-1">
           <h3>Lite om mig</h3>
           <div class="line"></div>
-          <p>Jag har sysslat med webbutveckling sedan cirka ett år tillbaka nu. Vägen hit har varit den mest givande jag varit med om. Att få hålla på med det jag älskar är helt underbart.<br>
+          <p>Jag har sysslat med webbutveckling sedan cirka ett år tillbaka nu. Vägen hit har varit den mest givande jag varit med om. Att få hålla på med det jag älskar är helt underbart. Min erfarenhet är inte lång men med min nyfikenhet och passion gör mig till en ivrig person som alltid strävar att lära sig det senaste och mest uppdaterade tekniken inom webbutveckling. Om jag får ett projekt av en kund som innebär mycket jobb av mig, så kan det ta mera tid än andra mera erfarna utvecklare. Men jag kommer lära mig på vägen, garanterat. Så till nästa projekt så kommer det att gå snabbare.
           <br>
-          Jag är just i startgroparna till att starta som <strong>frilansande webbutvecklare.</strong> Jag hoppas att hålla på med det här på heltid. Det jag kan hjälpa Er med är att skapa <strong>banners</strong> och så klart det mesta inom webben. I vissa fall så kan jag även hjälpa er med att ta fram en ny <strong>logga</strong> till ert företag eller förening.<br>
           <br>
-          <a href="#kontakt">Kontakta mig</a> med era förslag eller problem ni vill att jag ska hjälpa er med.<br>
-          <br></p>
-          <div class="fb-share-button" data-href="https://www.webbkon.se" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.webbkon.se">Dela</a>
-          </div>
-          <p></p>
+          Jag är just i startgroparna till att starta som <strong>frilansande webbutvecklare.</strong> Jag hoppas att hålla på med det här på heltid. Det jag kan hjälpa Er med är att skapa <strong>banners</strong> och så klart det mesta inom webben. I vissa fall så kan jag även hjälpa er med att ta fram en ny <strong>logga</strong> till ert företag eller förening. Jag är öppen för förslag av olika projekt av er.
+          <br>
+          <br>
+          <a href="kontakt">Kontakta mig</a> med era förslag eller problem ni vill att jag ska hjälpa er med. Jag hör av mig samma dag.
+          <br>
+          <br>
+          </p>
+          <div class="fb-like" data-href="http://xn--larsjnsson-icb.se" data-layout="button" data-action="recommend" data-size="small" data-show-faces="true" data-share="true"></div>
         </article>
       </section>
     </section>
@@ -213,11 +210,11 @@
 
     <section class="container footer">
       <div class="row col-lg-6 col-xs-12">
-        <strong><a href="./index.php">Hem</a> <a href="#om-mig">Om mig</a> <a href="projekt.php">Projekt</a> <a href="tjanster.php">Tjänster</a> <a href="kontakt.php">Kontakt</a></strong>
+        <strong><a href="/">Hem</a> <a href="/#om-mig">Om mig</a> <a href="projekt">Projekt</a> <a href="tjänster">Tjänster</a> <a href="kontakt">Kontakt</a></strong>
       </div>
       <hr class="row">
       <div class="row col-lg-12 copyright">
-        <strong>© 2017 –<a href="http://webbkon.se">Lars Jönsson</a></strong>
+        <strong>© 2017 –<a href="http://larsjönsson.se">Lars Jönsson</a></strong>
       </div>
     </section>
 

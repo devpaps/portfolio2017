@@ -1,1 +1,25 @@
-function _(a){return document.getElementById(a)}function submitForm(){_("mybtn").disabled=!0,_("status").innerHTML="Please wait ...";var a=new FormData;a.append("name",_("name").value),a.append("email",_("email").value),a.append("message",_("message").value);var b=new XMLHttpRequest;b.open("POST","contact_send_mail.php"),b.onreadystatechange=function(){4===b.readyState&&200===b.status&&("success"===b.responseText?_("status").innerHTML="<p>Thank you <strong>"+_("name").value+"</strong>, your message has been sent.</p>":(_("status").innerHTML=b.responseText,_("mybtn").disabled=!1))},b.send(a)}
+
+
+function _(id){ return document.getElementById(id); }
+function submitForm(){
+	_("mybtn").disabled = true;
+	_("status").innerHTML = 'please wait ...';
+	var formdata = new FormData();
+    formdata.append("name", _("name").value);
+    formdata.append("email", _("email").value);
+    formdata.append("message", _("message").value);
+	var ajax = new XMLHttpRequest();
+	ajax.open( "POST", "contact_send_mail.php" );
+	ajax.onreadystatechange = function() {
+		if(ajax.readyState == 4 && ajax.status == 200) {
+			if(ajax.responseText == "Skickat!"){
+				_("status").innerHTML = '<p>Tack <strong>'+_("name").value+'</strong>, ditt meddelande har skickats.</p>';
+        _("my_form").reset();
+        _("mybtn").disabled = false;
+			} else {
+				_("status").innerHTML = ajax.responseText;
+			}
+		}
+	}
+	ajax.send( formdata );
+};

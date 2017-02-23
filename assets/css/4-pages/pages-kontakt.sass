@@ -22,7 +22,8 @@
         @media (max-width: 1200px)
           margin: 0px
         .icons
-          display: block
+          display: flex
+          align-items: center
           margin: 3rem 0 3rem -1rem
           img
             display: block
@@ -30,10 +31,11 @@
             float: left
           span
             margin-left: 1rem
-            .contact-google-icon
-              margin-top: 3rem
-          #name
-            text-transform: capitalize
+      #mybtn
+        @media (max-width: 768px)
+          width: 100%
+      #name
+        text-transform: capitalize
       #status
         display: inline
         p
