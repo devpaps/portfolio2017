@@ -82,7 +82,7 @@
       </div>
 
     <div id="om-mig"></div>
-    <section class="container About">
+    <section class="container about">
       <section class="about row">
         <div class="picture-me col-lg-5"></div>
         <article class="col-lg-6 col-lg-offset-1">
@@ -219,9 +219,9 @@
     </section>
 
   </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    <script src="assets/js/jquery-3.1.1.min.js">
     </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    <script src="assets/js/bootstrap.min.js">
     </script>
     <script src="assets/js/mail.js">
     </script>

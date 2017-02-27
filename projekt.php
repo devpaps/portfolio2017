@@ -32,7 +32,6 @@
   <link rel="manifest" href="./assets/img/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:500">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -68,6 +67,13 @@
       <div class="line"></div>
       <div class="container">
         <div class="row">
+
+          <div class="col-lg-12 col-md-4 col-sm-4">
+            <a class="popupimage" href="./assets/img/projekt-fyra.png">
+              <img alt="projekt-tre" class="thumbnail" src="./assets/img/projekt-fyra.png">
+            </a>
+          </div>
+
           <div class="col-md-4 col-sm-4">
             <a class="popupimage" href="./assets/img/projekt-ett.png">
               <img alt="projekt-ett" class="thumbnail" src="./assets/img/projekt-ett.png">
@@ -84,6 +90,7 @@
               <img alt="projekt-tre" class="thumbnail" src="./assets/img/projekt-tre.png">
             </a>
           </div>
+
         </div>
           <div class="modal fade">
             <div class="modal-dialog modal-lg">
@@ -107,9 +114,9 @@
     </section>
 
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+  <script src="assets/js/jquery-3.1.1.min.js">
   </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+  <script src="assets/js/bootstrap.min.js">
   </script>
   <script src="assets/js/mail.js">
   </script>

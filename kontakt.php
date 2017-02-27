@@ -33,7 +33,6 @@
   <link rel="manifest" href="./assets/img/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:500">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -80,13 +79,20 @@
               <form id="my_form" name="my_form" onsubmit="submitForm(); return false;">
                 <div class="row">
                   <div class="form-group">
-                    <input class="form-control" id="name" placeholder="Ditt namn" required="" type="text">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input class="form-control" id="name" placeholder="Ditt namn" required="" type="text">
+                    </div>
                   </div>
                 </div>
                 <div class="form">
                   <div class="row">
                     <div class="form-group">
-                      <input class="form-control" id="email" placeholder="Din e-post" required="" type="email">
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                          <input class="form-control" id="email" placeholder="Din e-post" required="" type="email">
+                      </div>
+
                     </div>
                   </div>
                 </div>
@@ -125,9 +131,9 @@
       </div>
     </section>
   </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    <script src="assets/js/jquery-3.1.1.min.js">
     </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    <script src="assets/js/bootstrap.min.js">
     </script>
     <script src="assets/js/mail.js">
     </script>

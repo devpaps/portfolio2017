@@ -3,7 +3,7 @@
 function _(id){ return document.getElementById(id); }
 function submitForm(){
 	_("mybtn").disabled = true;
-	_("status").innerHTML = 'please wait ...';
+	_("status").innerHTML = 'vänligen vänta...';
 	var formdata = new FormData();
     formdata.append("name", _("name").value);
     formdata.append("email", _("email").value);

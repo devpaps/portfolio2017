@@ -33,7 +33,6 @@
   <link rel="manifest" href="./assets/img/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:500">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -58,6 +57,7 @@
         <div class="row">
           <h1>Banners</h1>
           <h5>- Att fånga besökarens uppmärksamhet</h5>
+          <hr>
         </div>
       </div>
     </div>
@@ -92,9 +92,9 @@
       </div>
     </section>
   </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    <script src="assets/js/jquery-3.1.1.min.js">
     </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    <script src="assets/js/bootstrap.min.js">
     </script>
     <script src="assets/js/mail.js">
     </script>
