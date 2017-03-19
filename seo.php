@@ -33,30 +33,30 @@
   <link rel="manifest" href="./assets/img/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:500">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:500,600">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 
   <div class="container-fluid">
     <header>
-      <div class="collector navbar">
+      <div class="collector navbar" id="willChange">
         <ul>
           <li><a href="/">Hem</a></li>
-          <li><a href="/#om-mig">Om mig</a></li>
+          <li><a href="om-mig">Om mig</a></li>
           <li><a href="projekt">Projekt</a></li>
           <li><a class="active" href="tjänster">Tjänster</a></li>
           <li><a href="kontakt">Kontakta mig</a></li>
         </ul>
-        <div class="handle">Meny</div>
+        <div class="handle">&#9776</div>
         <!--<a href="#Testamonials" class="slide-section">Referenser</a>-->
       </div>
     </header>
-    <div class="jumbotron seo-header">
+    <div class="jumbotron banner-header">
       <div class="container">
         <div class="row">
           <h1>SEO - Sökmotoroptimering</h1>
-          <h5>- Att synas är att finnas</h5>
+          <h4>- Att synas är att finnas</h4>
           <hr>
         </div>
       </div>
@@ -86,7 +86,7 @@
 
     <section class="container footer">
       <div class="row col-lg-6 col-xs-12">
-        <strong><a href="/">Hem</a> <a href="/#om-mig">Om mig</a> <a href="projekt">Projekt</a> <a href="tjänster">Tjänster</a> <a href="kontakt">Kontakt</a></strong>
+        <strong><a href="/">Hem</a> <a href="om-mig">Om mig</a> <a href="projekt">Projekt</a> <a href="tjänster">Tjänster</a> <a href="kontakt">Kontakt</a></strong>
       </div>
       <hr class="row">
       <div class="row col-lg-12 copyright">
@@ -97,8 +97,6 @@
     <script src="assets/js/jquery-3.1.1.min.js">
     </script>
     <script src="assets/js/bootstrap.min.js">
-    </script>
-    <script src="assets/js/mail.js">
     </script>
     <script src="assets/js/functions.js">
     </script>

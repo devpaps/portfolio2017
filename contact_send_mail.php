@@ -6,7 +6,7 @@ if( isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']) 
 	$to = "info@webbkon.se";
 	$from = $email;
 	$subject = 'Mail från webbsidan';
-	$message = '<b>Name:</b> '.$name.' <br><b>Email:</b> '.$email.' <p>'.$message.'</p>';
+	$message = '<b>Namn:</b> '.$name.' <br><b>Email:</b> '.$email.' <br><b>Meddelandet:</b> <p>'.$message.'</p>';
 	$headers = "From: $from\n";
 	$headers .= "MIME-Version: 1.0\n";
 	$headers .= "Content-type: text/html; charset=UTF-8\n";

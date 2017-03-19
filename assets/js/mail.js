@@ -20,6 +20,6 @@ function submitForm(){
 				_("status").innerHTML = ajax.responseText;
 			}
 		}
-	}
+	};
 	ajax.send( formdata );
-};
+}

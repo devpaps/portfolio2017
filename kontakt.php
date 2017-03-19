@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="sv-SE">
 <head>
   <title>Lars Jönsson | Frilansande Webbutvecklare i Östersund</title>
@@ -33,27 +33,30 @@
   <link rel="manifest" href="./assets/img/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:500">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:500,600">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 
   <div class="container-fluid">
     <header>
-      <div class="collector navbar">
+      <div class="collector navbar" id="willChange">
         <ul>
           <li><a href="./">Hem</a></li>
-          <li><a href="/#om-mig">Om mig</a></li>
+          <li><a href="om-mig">Om mig</a></li>
           <li><a href="projekt">Projekt</a></li>
           <li><a href="tjänster">Tjänster</a></li>
           <li><a class="active" href="kontakt">Kontakta mig</a></li>
         </ul>
-        <div class="handle">Meny</div>
+        <div class="handle">&#9776</div>
         <!--<a href="#Testamonials" class="slide-section">Referenser</a>-->
       </div>
     </header>
 
     <section class="container contact">
+      <div class="row">
+
+
       <div class="contact-text">
         <h1>Hör av dig</h1>
         <div class="line"></div>
@@ -105,13 +108,15 @@
                   </div>
                     <div class="row">
                       <input id="mybtn" class="button btn btn-primary" type="submit" value="Skicka">
-                    </div><span id="status"></span>
+                    </div>
+                    <span id="status"></span>
 
 
               </form>
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
 
@@ -123,7 +128,7 @@
 
     <section class="container footer">
       <div class="row col-lg-6 col-xs-12">
-        <strong><a href="/">Hem</a> <a href="/#om-mig">Om mig</a> <a href="projekt">Projekt</a> <a href="tjänster">Tjänster</a> <a href="kontakt">Kontakt</a></strong>
+        <strong><a href="/">Hem</a> <a href="om-mig">Om mig</a> <a href="projekt">Projekt</a> <a href="tjänster">Tjänster</a> <a href="kontakt">Kontakt</a></strong>
       </div>
       <hr class="row">
       <div class="row col-lg-12 copyright">

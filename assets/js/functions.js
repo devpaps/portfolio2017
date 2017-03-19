@@ -43,3 +43,33 @@ $(document).ready(function() {
 $('.handle').on('click', function(){
   $('.navbar ul').toggleClass('showing');
 });
+
+
+var touchsupport = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0);
+if (!touchsupport){ // browser doesn't support touch
+    document.documentElement.className += " non-touch";
+}
+
+
+var el = document.getElementById('willChange');
+
+// Set will-change when the element is hovered
+el.addEventListener('mouseenter', hintBrowser);
+el.addEventListener('animationEnd', removeHint);
+
+function hintBrowser() {
+  // The optimizable properties that are going to change
+  // in the animation's keyframes block
+  this.style.willChange = 'transform, opacity';
+}
+
+function removeHint() {
+  this.style.willChange = 'auto';
+}
+
+
+$(function() {
+  $('#roller').vTicker('init', {speed: 1500,
+  padding:5});
+  $('li').css("padding-left","0px");
+});

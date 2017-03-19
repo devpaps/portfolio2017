@@ -33,87 +33,81 @@
   <link rel="manifest" href="./assets/img/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:500">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:500,600">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 
   <div class="container-fluid">
     <header>
-      <div class="collector navbar">
+      <div class="collector navbar" id="willChange">
         <ul>
           <li><a href="/">Hem</a></li>
-          <li><a href="/#om-mig">Om mig</a></li>
+          <li><a href="om-mig">Om mig</a></li>
           <li><a href="projekt">Projekt</a></li>
           <li><a class="active" href="tjänster">Tjänster</a></li>
           <li><a href="kontakt">Kontakta mig</a></li>
         </ul>
-        <div class="handle">Meny</div>
+        <div class="handle">&#9776</div>
         <!--<a href="#Testamonials" class="slide-section">Referenser</a>-->
       </div>
     </header>
-      <section class="container services">
-        <div class="services-text">
+      <section class="services">
+        <div class="services-text col-lg-12">
           <h1>Mina tjänster</h1>
           <div class="line"></div>
           <p>Jag jobbar med den senaste tekniken när jag kodar fram din webbplats. Jag jobbar även på ett agilt arbetssätt.</p>
         </div>
-        <div class="container col-lg-12 seo">
-          <div class="row">
-            <div class="col-md-6 icon"><img alt="browser icon" src="./assets/img/browser.svg"></div>
-            <div class="col-md-6 text">
-              <h4>Banners</h4>
-              <p>Jag hjälper er med banners av olika slag. Det kan vara något ni vill uttrycka på er webbplats, t.ex. <strong>reklam</strong> för någon produkt. Det är ett perfekt sätt att fånga kundernas öga.</p>
-                <a href="banner">
-                  <button class="button btn btn-primary">Läs mer</button>
-                </a>
+
+
+        <div class="container">
+          <div class="box special features">
+            <div class="row features-row">
+                <div class="section banner col-lg-6 non-touch" id="willChange">
+                  <img alt="browser icon" src="./assets/img/browser.svg">
+                  <h3>Banners</h3>
+                  <p>Jag hjälper er med banners av olika slag. Det kan vara något ni vill uttrycka på er webbplats, t.ex. <strong>reklam</strong> för någon produkt. Det är ett perfekt sätt att fånga kundernas öga.</p>
+                  <a href="banner" class="btn btn-primary read-more">Läs mer</a>
+                </div>
+
+
+
+                <div class="section seo col-lg-6 non-touch" id="willChange">
+                  <img alt="SEO icon" src="./assets/img/spider.svg">
+                  <h3>SEO - Sökmotoroptimering</h3>
+                  <p>Idag finns det många olika <strong>tekniker</strong> och <strong>funktioner</strong> för att blir bättre sökbar på sökmotorer som Google. Det går hand i hand med flera saker när man utvecklare en ny webbsida.</p>
+                  <a href="seo" class="btn btn-primary read-more">Läs mer</a>
+                </div>
+
+            </div>
+
+            <div class="row features-row">
+
+
+              <div class="section col-lg-6 third non-touch" id="willChange">
+                <img alt="responsive icon" src="./assets/img/responsive.svg">
+                <h3>Responsivitet - Mobilvänlig webbplats</h3>
+                <p>Att ha en responsiv webbplats idag är ett måste. I princip alla som surfar på webben idag använder sig av <strong>mobiler</strong>. Därför är det viktigt att just eran webbplats ska få en så bra <strong>användarupplevelse</strong> som möjligt på små skärmar.</p>
+                <a href="responsiv" class="btn btn-primary read-more">Läs mer</a>
+              </div>
+
+
+
+                <div class="section col-lg-6 fourth non-touch" id="willChange">
+                  <img alt="speedometer icon" src="./assets/img/speedometer.svg">
+                  <h3>Optimering av webbplats för snabbhet</h3>
+                  <p>Det är väldigt viktigt att dagens webbplatser är snabba. Det finns en rad åtgärder att vidta när man kan göra för att få sidan att visas snabbt. Ju snabbare sida, desto bättre <strong>ranking</strong> på sökmotorer som Google och Bing.</p>
+                  <a href="optimering" class="btn btn-primary read-more">Läs mer</a>
+                </div>
+
             </div>
           </div>
         </div>
-        <div class="container col-lg-12 responsive">
-          <div class="row">
-            <div class="col-md-6 text">
-              <h4>SEO - Sökmotoroptimering</h4>
-              <p>Idag finns det många olika <strong>tekniker</strong> och <strong>funktioner</strong> för att blir bättre sökbar på sökmotorer som Google. Det går hand i hand med flera saker när man utvecklare en ny webbsida.</p>
-              <a href="seo">
-                <button class="button btn btn-primary">Läs mer</button>
-              </a>
-
-            </div>
-            <div class="col-md-6 icon"><img alt="SEO icon" src="./assets/img/spider.svg"></div>
-          </div>
-        </div>
-        <div class="container col-lg-12 code">
-          <div class="row">
-            <div class="col-md-6 icon"><img alt="responsive icon" src="./assets/img/responsive.svg"></div>
-            <div class="col-md-6 text">
-              <h4>Responsivitet - Mobilvänlig webbplats</h4>
-              <p>Att ha en responsiv webbplats idag är ett måste. I princip alla som surfar på webben idag använder sig av <strong>mobiler</strong>. Därför är det viktigt att just eran webbplats ska få en så bra <strong>användarupplevelse</strong> som möjligt på små skärmar.</p>
-              <a class="button btn btn-primary" href="responsiv">Läs mer</a>
-            </div>
-          </div>
-        </div>
-        <div class="container col-lg-12 design">
-          <div class="row">
-            <div class="col-md-6 text">
-              <h4>Optimering av webbplats för snabbhet</h4>
-              <p>Det är väldigt viktigt att dagens webbplatser är snabba. Det finns en rad åtgärder att vidta när man kan göra för att få sidan att visas snabbt. Ju snabbare sida, desto bättre <strong>ranking</strong> på sökmotorer.</p>
-            </div>
-            <div class="col-md-6 icon"><img alt="speedometer icon" src="./assets/img/speedometer.svg"></div>
-          </div>
-        </div>
-      </section>
-
-
-
-
-
-
 
 
     <section class="container footer">
       <div class="row col-lg-6 col-xs-12">
-        <strong><a href="/">Hem</a> <a href="/#om-mig">Om mig</a> <a href="projekt">Projekt</a> <a href="tjänster">Tjänster</a> <a href="kontakt">Kontakt</a></strong>
+        <strong><a href="/">Hem</a> <a href="om-mig">Om mig</a> <a href="projekt">Projekt</a> <a href="tjänster">Tjänster</a> <a href="kontakt">Kontakt</a></strong>
       </div>
       <hr class="row">
       <div class="row col-lg-12 copyright">
@@ -124,8 +118,6 @@
     <script src="assets/js/jquery-3.1.1.min.js">
     </script>
     <script src="assets/js/bootstrap.min.js">
-    </script>
-    <script src="assets/js/mail.js">
     </script>
     <script src="assets/js/functions.js">
     </script>

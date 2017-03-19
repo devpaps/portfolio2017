@@ -33,39 +33,41 @@
   <link rel="manifest" href="./assets/img/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:500">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:500,600">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 
   <div class="container-fluid">
     <header>
-      <div class="collector navbar">
+      <div class="collector navbar" id="willChange">
         <ul>
           <li><a href="/">Hem</a></li>
-          <li><a href="/#om-mig">Om mig</a></li>
+          <li><a href="om-mig">Om mig</a></li>
           <li><a href="projekt">Projekt</a></li>
           <li><a class="active" href="tjänster">Tjänster</a></li>
           <li><a href="kontakt">Kontakta mig</a></li>
         </ul>
-        <div class="handle">Meny</div>
+        <div class="handle">&#9776</div>
         <!--<a href="#Testamonials" class="slide-section">Referenser</a>-->
       </div>
     </header>
-    <div class="jumbotron seo-header">
+    <div class="jumbotron banner-header">
       <div class="container">
         <div class="row">
           <h1>Responsiv Webbsida</h1>
-          <h5>- Optimerad för visning på mobila enheter</h5>
+          <h4>- Optimerad för visning på mobila enheter</h4>
           <hr>
         </div>
       </div>
     </div>
     <div class="container seo-info">
       <div class="row col-lg-12">
-        <h3>Återkommer</h3>
+        <h3>Mobilanpassad webbsida</h3>
         <div class="column col-lg-6 seo-text">
-          <p>I'll be back...</p>
+          <p>Det kommer inte som en överraskning att i princip alla idag använder sig av deras mobiltelefoner med relativt små skärmar. Responsiv design tar hänsyn till alla dessa små mobilskärmar för att anpassa innehållet bättre för användaren.</p>
+          <p>Innan man började implementera responsiv design inom webbutveckling så gjorde man oftast två versioner av en webbplats. En för vanliga pc-datorer samt en för mobila enheter. Det var mycket mer arbete som låg bakom för utvecklarna.</p>
+          <p>Idag är det standard att utveckla webbplatser för mobila enheter. Och det är mycket lättare för utvecklarna idag att få sidan att anpassa sig efter de olika skärmstorlekarna med hjälp av så kallade grids</p>
         </div>
         <div class="row col-lg-6 seo-nummer-ett">
           <img src="./assets/img/responsive-image.svg" alt="Responsiv-bild-mobil">
@@ -82,7 +84,7 @@
 
     <section class="container footer">
       <div class="row col-lg-6 col-xs-12">
-        <strong><a href="/">Hem</a> <a href="/#om-mig">Om mig</a> <a href="projekt">Projekt</a> <a href="tjänster">Tjänster</a> <a href="kontakt">Kontakt</a></strong>
+        <strong><a href="/">Hem</a> <a href="om-mig">Om mig</a> <a href="projekt">Projekt</a> <a href="tjänster">Tjänster</a> <a href="kontakt">Kontakt</a></strong>
       </div>
       <hr class="row">
       <div class="row col-lg-12 copyright">
@@ -93,8 +95,6 @@
     <script src="assets/js/jquery-3.1.1.min.js">
     </script>
     <script src="assets/js/bootstrap.min.js">
-    </script>
-    <script src="assets/js/mail.js">
     </script>
     <script src="assets/js/functions.js">
     </script>

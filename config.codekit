@@ -114,6 +114,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/4-pages\/pages-byggbroder.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/4-pages\/pages-byggbroder.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/pages-byggbroder.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/4-pages\/pages-kontakt.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -130,6 +146,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/4-pages\/pages-ommig.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/4-pages\/pages-ommig.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/pages-ommig.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/assets\/css\/4-pages\/pages-optimering.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/4-pages\/pages-optimering.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/pages-optimering.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/4-pages\/pages-projekt.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -139,6 +187,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/css\/4-pages\/pages-projekt.sass",
 		"outputAbbreviatedPath": "\/assets\/css\/css\/pages-projekt.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/assets\/css\/4-pages\/pages-responsivitet.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/4-pages\/pages-responsivitet.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/pages-responsivitet.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -203,11 +267,29 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/css\/pages-byggbroder.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/css\/pages-byggbroder.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/css\/css\/pages-kontakt.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/css\/css\/pages-kontakt.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/css\/css\/pages-ommig.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/css\/pages-ommig.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -251,9 +333,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": false
+		},
+	"\/assets\/img\/byggbroder.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 342314,
+		"inputAbbreviatedPath": "\/assets\/img\/byggbroder.png",
+		"outputAbbreviatedPath": "\/assets\/img\/byggbroder.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/codepen2.png": {
 		"fileType": 32768,
@@ -706,6 +799,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/struckaxiom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 430,
+		"inputAbbreviatedPath": "\/assets\/img\/struckaxiom.png",
+		"outputAbbreviatedPath": "\/assets\/img\/struckaxiom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/twitter2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -758,7 +862,7 @@
 		"outputAbbreviatedPath": "\/assets\/js\/min\/mail-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
 	"\/assets\/js\/min\/functions-min.js": {
@@ -789,6 +893,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/min\/mail-min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/mail-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
+		},
+	"\/assets\/js\/vTicker.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/vTicker.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/vTicker-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -835,6 +950,33 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kontakt.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/om-mig.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/om-mig.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/optimering.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/optimering.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/byggbroder.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/byggbroder.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

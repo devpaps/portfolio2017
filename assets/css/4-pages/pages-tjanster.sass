@@ -1,3 +1,4 @@
+
 .services
   padding-top: 5rem
   .services-text
@@ -6,27 +7,74 @@
       text-align: center
     h1
       font-weight: 500
-
+    p
+      color: #292b2c
   .container
-    @media (max-width: 768px)
-      &:nth-of-type(odd) .row
-        display: flex
-        flex-direction: column-reverse
-    .icon
-      background: transparent
-      text-align: center
-      height: 233px
+    margin-top: 2rem
+
+  .box
+    background: #fff
+    border-radius: 2px
+    margin: 3rem auto
+    padding: 3em
+    @media(max-width: 480px)
+      padding: 0
+  .features-row
+    a
+      color: #292b2c
+      text-decoration: none
+  .special
+    text-align: center
+    .banner
+      border-right: solid 2px #e5e5e5
+      &:hover
+        border-right: solid 2px transparent
+        z-index: 1
+    .section
+      min-height: 440px
+      padding: 2rem
+      background: #fff
+      transition: all 300ms ease-in-out
+      &:hover
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+        transform: translate(0, -15px)
+        border-radius: 2px
+        z-index: 1
+      p
+        margin-top: 2rem
+        text-align: justify
       img
-        width: 140px
-        height: inherit
-    .text
-      background: antiquewhite
-      padding: 3rem
-      box-shadow: 0 10px 10px -5px #ccc
-      @media (max-width: 768px)
-        margin: 3rem 0
-      h4, p
-        text-align: left
-      u
-        border-bottom: 1px dotted #000
-        text-decoration: none
+        max-width: 35%
+        height: auto
+        display: block
+        margin: auto
+      h3
+        margin-top: 10%
+        color: #303030
+      .read-more
+        color: #fff
+    .third
+      border-top: solid 2px #e5e5e5
+      border-right: solid 2px #e5e5e5
+      &:hover
+        border-top: solid 2px transparent
+        border-right: solid 2px transparent
+        z-index: 1
+        border-radius: 2px
+      img
+        margin-top: 3rem
+    .fourth
+      border-top: solid 2px #e5e5e5
+      &:hover
+        border-top: solid 2px transparent
+        z-index: 1
+        border-radius: 2px
+      img
+        margin-top: 3rem
+
+  @media (max-width: 1024px)
+    .features-row
+      .banner, .section, .third, .fourth
+        border: 0
+        &:hover
+          border: 0
