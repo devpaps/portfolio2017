@@ -67,7 +67,7 @@
           <div class="one col-lg-8"><img src="../assets/img/byggbroder.png" alt=""/></div>
           <div class="two col-lg-4">
             <h1>Om projektet</h1>
-            <p>Anders och Robin kontaktade mig när dem behövde en ny fräsch hemsida. Dem ville ha samma innehåll som den gamla hemsidan hade. Så mitt uppdrag var att kombinera färger och en bra layout till dem.</p>
+            <p>Värmlands Byggbröder behövde en ny fräsch hemsida. Dem ville ha samma innehåll som den gamla hemsidan hade. Så mitt uppdrag var att kombinera färger och en bra layout till dem.</p>
             <ul>
               <li>
                 <p>Responsiv</p>
@@ -79,13 +79,7 @@
                 <p>CSS3</p>
               </li>
               <li>
-                <p>Javascript</p>
-              </li>
-              <li>
-                <p>Galleri</p>
-              </li>
-              <li>
-                <p>Google Maps</p>
+                <p>Bootstrap</p>
               </li>
             </ul>
             <a href="https://devpaps.github.io/byggbroder/" class="btn btn-primary info-btn">varmlandsbyggbröder.se</a>
@@ -111,7 +105,7 @@
       </div>
     </section>
   </div>
-    <script src="../assets/js/jquery-3.1.1.min.js">
+    <script src="../assets/js/jquery-3.2.0.min.js">
     </script>
     <script src="../assets/js/bootstrap.min.js">
     </script>

@@ -77,7 +77,7 @@
               <!--icon-->
               <figcaption>
                 <div>
-                  <h1>Mer info senare</h1><span>Här fyller jag i senare</span>
+                  <h1>Card</h1><span>Enkel och ren design</span>
                   <a href="http://codepen.io/Devpaps/pen/WowgWj" class="btn btn-primary">Mer info</a>
                 </div>
               </figcaption>
@@ -91,7 +91,7 @@
               <!--icon-->
               <figcaption>
                 <div>
-                  <h1>Mer info senare</h1><span>Här fyller jag i senare</span>
+                  <h1>Card</h1><span>Koncept på ett inlogg</span>
                   <a href="http://codepen.io/Devpaps/pen/ENgMNq" class="btn btn-primary">Mer info</a>
                 </div>
               </figcaption>
@@ -106,7 +106,7 @@
                 <!--icon-->
                 <figcaption>
                   <div>
-                    <h1>Mer info senare</h1><span>Här fyller jag i senare</span>
+                    <h1>Titta här</h1><span>Här fyller jag i senare</span>
                     <a href="#" class="btn btn-primary">Mer info</a>
                   </div>
                 </figcaption>
@@ -136,7 +136,7 @@
     </section>
 
   </div>
-  <script src="assets/js/jquery-3.1.1.min.js">
+  <script src="assets/js/jquery-3.2.0.min.js">
   </script>
   <script src="assets/js/bootstrap.min.js">
   </script>

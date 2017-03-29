@@ -64,11 +64,11 @@
                     <li>Rolig</li>
                   </ul>
                 </div>
-                 Front-end utvecklare</h1>
+                 Webbutvecklare</h1>
 
 
                 <div class="row hero-text">
-                  <div class="col-lg-6">
+                  <div class="col-lg-6 fake">
                     <p>-Jag sysslar med webbutveckling hemifrån mitt hus på landet. Det jag kan hjälpa dig med är,
                       <u><strong><a class="lead-link" href="seo">SEO-analys</a></strong></u>,
                       <u><strong><a class="lead-link" href="responsiv">Responsiva webbsidor</a></strong></u>,
@@ -80,12 +80,26 @@
                     </div>
                   </div>
                 </div>
-
             </div>
           </div>
         </div>
       </div>
 
+
+    <div class="container tjänster">
+      <h1>Vad jag erbjuder er</h1>
+      <div class="row">
+        <div class="col-lg-4">
+          <h3>SEO</h3>
+        </div>
+        <div class="col-lg-4">
+          <h3>Responsivitet</h3>
+        </div>
+        <div class="col-lg-4">
+          <h3>Banners</h3>
+        </div>
+      </div>
+    </div>
 
     <section class="container footer">
       <div class="row col-lg-6 col-xs-12">
@@ -98,7 +112,7 @@
     </section>
 
   </div>
-    <script src="assets/js/jquery-3.1.1.min.js">
+    <script src="assets/js/jquery-3.2.0.min.js">
     </script>
     <script src="assets/js/vTicker.js">
     </script>

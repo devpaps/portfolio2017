@@ -59,7 +59,17 @@
       </div>
     </header>
 
-    <div id="om-mig"></div>
+    <div class="hero-img-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1><blockquote>
+              Strive not to be a success, but rather to be of value.<br><br> –Albert Einstein
+            </blockquote></h1>
+          </div>
+        </div>
+      </div>
+    </div>
     <section class="container about">
       <section class="about row">
         <div class="picture-me col-lg-5"></div>
@@ -197,7 +207,7 @@
     </section>
 
   </div>
-    <script src="assets/js/jquery-3.1.1.min.js">
+    <script src="assets/js/jquery-3.2.0.min.js">
     </script>
     <script src="assets/js/bootstrap.min.js">
     </script>

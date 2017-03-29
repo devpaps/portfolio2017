@@ -733,6 +733,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/om-mig.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 238865,
+		"inputAbbreviatedPath": "\/assets\/img\/om-mig.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/om-mig.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/outdoors.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 215412,
+		"inputAbbreviatedPath": "\/assets\/img\/outdoors.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/outdoors.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/projekt-ett.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -843,12 +865,12 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
-	"\/assets\/js\/jquery-3.1.1.min.js": {
+	"\/assets\/js\/jquery-3.2.0.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/jquery-3.1.1.min.js",
-		"outputAbbreviatedPath": "\/assets\/js\/min\/jquery-3.1.1.min-min.js",
+		"inputAbbreviatedPath": "\/assets\/js\/jquery-3.2.0.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/jquery-3.2.0.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -893,6 +915,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/min\/mail-min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/mail-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
+		},
+	"\/assets\/js\/min\/vTicker-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/min\/vTicker-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/vTicker-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

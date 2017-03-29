@@ -4,46 +4,50 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
   <loc>http://www.xn--larsjnsson-icb.se/</loc>
-  <changefreq>hourly</changefreq>
-  <priority>1.00</priority>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://www.xn--larsjnsson-icb.se/om-mig</loc>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://www.xn--larsjnsson-icb.se/projekt</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://www.xn--larsjnsson-icb.se/tjänster</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://www.xn--larsjnsson-icb.se/kontakt</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://www.xn--larsjnsson-icb.se/seo</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://www.xn--larsjnsson-icb.se/responsiv</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://www.xn--larsjnsson-icb.se/banner</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://www.xn--larsjnsson-icb.se/portfolio/byggbroder</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://www.xn--larsjnsson-icb.se/optimering</loc>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://www.xn--larsjnsson-icb.se/tjanster</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.64</priority>
+  <changefreq>always</changefreq>
 </url>
 </urlset>

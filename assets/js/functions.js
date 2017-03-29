@@ -68,8 +68,33 @@ function removeHint() {
 }
 
 
-$(function() {
-  $('#roller').vTicker('init', {speed: 1500,
-  padding:5});
-  $('li').css("padding-left","0px");
+
+
+var pContainerHeight = $('.hero-img').height();
+
+$(window).scroll(function(){
+
+  var wScroll = $(this).scrollTop();
+
+  if (wScroll <= pContainerHeight) {
+
+    $('.myName').css({
+      'transform' : 'translate(0px, '+ wScroll /5 +'%)'
+    });
+
+    $('.fake').css({
+      'transform' : 'translate(0px, -'+ wScroll /20 +'%)'
+    });
+
+  }
+});
+
+
+$(document).on('scroll', function(){
+    if
+    ($(document).scrollTop() > 100 ) {
+        $('.collector').addClass('shrink');
+    }   else {
+        $('.collector').removeClass('shrink');
+    }
 });

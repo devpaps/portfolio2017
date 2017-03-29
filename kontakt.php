@@ -1,4 +1,3 @@
-
 <html lang="sv-SE">
 <head>
   <title>Lars Jönsson | Frilansande Webbutvecklare i Östersund</title>
@@ -93,7 +92,7 @@
                     <div class="form-group">
                       <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                          <input class="form-control" id="email" placeholder="Din e-post" required="" type="email">
+                          <input class="form-control" id="email" placeholder="Din E-mail" required="" type="email">
                       </div>
 
                     </div>
@@ -136,7 +135,7 @@
       </div>
     </section>
   </div>
-    <script src="assets/js/jquery-3.1.1.min.js">
+    <script src="assets/js/jquery-3.2.0.min.js">
     </script>
     <script src="assets/js/bootstrap.min.js">
     </script>

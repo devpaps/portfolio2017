@@ -12,6 +12,9 @@
     margin-top: 5rem
     .row
       margin-bottom: 5rem
+      @media (max-width: 1024px)
+        &:nth-child(1)
+          margin-bottom: 0
       .work
         @media (max-width: 1024px)
           margin: 5rem 0
@@ -40,6 +43,14 @@
     &:hover div
       transform: translate(-50%,-50%)
       opacity: 1
+    @media(max-width: 1024px)
+      &:hover
+        transform: none
+      &:focus
+        transform: none
+      &:hover figcaption
+        clip-path: none
+        opacity: 0.9
     figcaption
       position: absolute
       display: block
@@ -68,13 +79,13 @@
           display: block
           width: 100%
           font-size: 1.8rem
-          color: #fff
+          color: $black
           font-style: bold
         a
           margin-top: 3rem
         span
           display: block
-          color: #fff
+          color: $black
           font-style: italic
 
   img
