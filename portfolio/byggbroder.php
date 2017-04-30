@@ -96,12 +96,56 @@
 
 
     <section class="container footer">
-      <div class="row col-lg-6 col-xs-12">
-        <strong><a href="/">Hem</a> <a href="../om-mig">Om mig</a> <a href="../projekt">Projekt</a> <a href="../tjanster">Tjänster</a> <a href="../kontakt">Kontakt</a></strong>
-      </div>
       <hr class="row">
-      <div class="row col-lg-12 copyright">
-        <strong>© 2017 – <a href="http://larsjönsson.se">Lars Jönsson</a></strong>
+      <div class="container">
+      <div class="row col-lg-12">
+
+        <strong>
+        <a href="/">Hem</a>
+        <a href="om-mig">Om mig</a>
+        <a href="projekt">Projekt</a>
+        <a href="tjänster">Tjänster</a>
+        <a href="kontakt">Kontakt</a>
+        </strong>
+      </div>
+      </div>
+      <div class="container">
+
+
+      <div class="row copyright">
+
+        <div class="col-lg-6 col-sm-6">
+          <strong>&#169; 2017 –<a href="http://larsjönsson.se"> Lars Jönsson</a></strong>
+        </div>
+
+
+        <div class="links col-lg-6 col-sm-6">
+
+          <div class="twitter bottom">
+            <a href="https://twitter.com/devpaps">
+              <img alt="Twitter-icon" src="./assets/img/twitter.svg">
+            </a>
+          </div>
+
+          <div class="github bottom">
+            <a href="https://github.com/devpaps">
+              <img alt="Github-icon" src="./assets/img/github.svg">
+            </a>
+          </div>
+
+          <div class="codepen bottom">
+            <a href="http://codepen.io/devpaps/">
+              <img alt="Codepen-icon" src="./assets/img/codepen.svg">
+            </a>
+          </div>
+
+          <div class="linkedin bottom">
+            <a href="https://se.linkedin.com/in/lars-j%C3%B6nsson-43b3646a">
+              <img alt="LinkedIn-icon" src="./assets/img/linkedin.svg">
+            </a>
+          </div>
+
+        </div
       </div>
     </section>
   </div>

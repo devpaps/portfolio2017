@@ -59,22 +59,16 @@
 
 /****************Links****************/
 
-.links
-  .row
-    .tot
-      text-align: -webkit-center
-      margin-bottom: 5rem
-      img
-        width: 45px
-    .twitter
-      background: #55ACEE
-      @media (max-width: 1200px)
-        background: none
-    .linkedin
-      background: #007BB5
-      @media (max-width: 1200px)
-        background: none
-    .codepen
-      background: #232323
-      @media (max-width: 1200px)
-        background: none
+
+.bottom
+  margin-bottom: 3em
+  transition: 300ms all ease-in-out
+  &:nth-child(-1n+3)
+    margin-right: 2em
+  &:hover
+    transform: translateY(-10px)
+  @media (max-width: 320px)
+    margin-right: 1em
+  img
+    width: 35px
+    display: block

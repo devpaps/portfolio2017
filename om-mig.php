@@ -91,64 +91,10 @@
       </section>
     </section>
 
-          <!--
-        <div id="Testamonials">
-          <section class="testamonials container">
-              <div class="carousel slide" data-ride="carousel" id="text-carousel">
-                  <ol class="carousel-indicators">
-                      <li class="active" data-slide-to="0" data-target="#text-carousel">
-                      </li>
 
 
-                      <li data-slide-to="1" data-target="#text-carousel">
-                      </li>
 
-
-                      <li data-slide-to="2" data-target="#text-carousel">
-                      </li>
-                  </ol>
-
-
-                  <div class="row">
-                      <div class="container">
-                          <div class="carousel-inner" role="listbox">
-                              <div class="item active">
-                                  <div class="carousel-content">
-                                      <div class="container text-testamonials">
-                                          <h4>Sofie Blom</h4>
-                                          <p>He is a wunderful human</p>
-                                      </div>
-                                  </div>
-                              </div>
-
-
-                              <div class="item">
-                                  <div class="carousel-content">
-                                      <div class="container text-testamonials">
-                                          <h4>Stefan Larsson</h4>
-                                          <p>Lorem ipsum dolor sit amet</p>
-                                      </div>
-                                  </div>
-                              </div>
-
-
-                              <div class="item">
-                                  <div class="carousel-content">
-                                      <div class="container text-testamonials">
-                                        <h4>Martin Sundin</h4>
-                                        <p>Sapiente, ducimus, voluptas, mollitia voluptatibus nemo.</p>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </section>
-
-        </div>
-              -->
-    <section class="container tools col-lg-12">
+    <section class="container tools">
       <h3>Verktygen jag använder mig av</h3>
       <div class="line"></div>
       <div class="row">
@@ -157,52 +103,72 @@
             <div class="col-lg-2"><img alt="sass" data-placement="bottom" data-toggle="tooltip" src="./assets/img/sass.png" title="Syntactically Awesome Style Sheets"></div>
           </div>
           <div class="pug icons">
-            <div class="col-lg-2"><img alt="pug/jade" data-placement="bottom" data-toggle="tooltip" src="./assets/img/pug.png" title="Pug/Jade"></div>
+            <div class="col-lg-2"><img alt="pug/jade icon" data-placement="bottom" data-toggle="tooltip" src="./assets/img/pug.png" title="Pug/Jade"></div>
           </div>
           <div class="jquery icons">
-            <div class="col-lg-2"><img alt="jquery" data-placement="bottom" data-toggle="tooltip" src="./assets/img/jquery.png" title="Jquery"></div>
+            <div class="col-lg-2"><img alt="jquery icon" data-placement="bottom" data-toggle="tooltip" src="./assets/img/jquery.png" title="Jquery"></div>
           </div>
           <div class="javascript icons">
-            <div class="col-lg-2"><img alt="javascript" data-placement="bottom" data-toggle="tooltip" src="./assets/img/js.png" title="Javascript"></div>
+            <div class="col-lg-2"><img alt="javascript icon" data-placement="bottom" data-toggle="tooltip" src="./assets/img/js.png" title="Javascript"></div>
           </div>
           <div class="github icons">
-            <div class="col-lg-2"><img alt="javascript" data-placement="bottom" data-toggle="tooltip" src="./assets/img/github3.png" title="GitHub"></div>
+            <div class="col-lg-2"><img alt="github icon" data-placement="bottom" data-toggle="tooltip" src="./assets/img/github3.png" title="GitHub"></div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!--
-    <div class="container-fluid parallax">
-      <div class="image-box">
-        <div class="parallax-text">
-          <h2 class="ptext">En funktionell och säker webbsida <br>är aldrig långt bort</h2>
-        </div>
-      </div>
-    </div>
-    -->
-
-
-
-    <section class="container links">
-      <div class="container">
-        <div class="row col-lg-12">
-          <a href="https://www.twitter.com/devpaps">
-          <div class="twitter tot col-lg-3 col-xs-3" data-placement="bottom" data-toggle="tooltip" title="Twitter"><img alt="twitter-icon" src="./assets/img/twitter2.png"></div></a> <a href="https://github.com/devpaps">
-          <div class="github tot col-lg-3 col-xs-3" data-placement="bottom" data-toggle="tooltip" title="Github"><img alt="Github-icon" src="./assets/img/github2.png"></div></a> <a href="http://codepen.io/Devpaps/">
-          <div class="codepen tot col-lg-3 col-xs-3" data-placement="bottom" data-toggle="tooltip" title="Codepen"><img alt="codepen-icon" src="./assets/img/codepen2.png"></div></a> <a href="https://se.linkedin.com/in/lars-j%C3%B6nsson-43b3646a">
-          <div class="linkedin tot col-lg-3 col-xs-3" data-placement="bottom" data-toggle="tooltip" title="LinkedIn"><img alt="LinkedIn-icon" src="./assets/img/linkedin2.png"></div></a>
         </div>
       </div>
     </section>
 
     <section class="container footer">
-      <div class="row col-lg-6 col-xs-12">
-        <strong><a href="/">Hem</a> <a href="om-mig">Om mig</a> <a href="projekt">Projekt</a> <a href="tjänster">Tjänster</a> <a href="kontakt">Kontakt</a></strong>
-      </div>
       <hr class="row">
-      <div class="row col-lg-12 copyright">
-        <strong>© 2017 –<a href="http://larsjönsson.se">Lars Jönsson</a></strong>
+      <div class="container">
+      <div class="row col-lg-12">
+
+        <strong>
+        <a href="/">Hem</a>
+        <a href="om-mig">Om mig</a>
+        <a href="projekt">Projekt</a>
+        <a href="tjänster">Tjänster</a>
+        <a href="kontakt">Kontakt</a>
+        </strong>
+      </div>
+      </div>
+      <div class="container">
+
+
+      <div class="row copyright">
+
+        <div class="col-lg-6 col-sm-6">
+          <strong>&#169; 2017 –<a href="http://larsjönsson.se"> Lars Jönsson</a></strong>
+        </div>
+
+
+        <div class="links col-lg-6 col-sm-6">
+
+          <div class="twitter bottom">
+            <a href="https://twitter.com/devpaps">
+              <img alt="Twitter-icon" src="./assets/img/twitter.svg">
+            </a>
+          </div>
+
+          <div class="github bottom">
+            <a href="https://github.com/devpaps">
+              <img alt="Github-icon" src="./assets/img/github.svg">
+            </a>
+          </div>
+
+          <div class="codepen bottom">
+            <a href="http://codepen.io/devpaps/">
+              <img alt="Codepen-icon" src="./assets/img/codepen.svg">
+            </a>
+          </div>
+
+          <div class="linkedin bottom">
+            <a href="https://se.linkedin.com/in/lars-j%C3%B6nsson-43b3646a">
+              <img alt="LinkedIn-icon" src="./assets/img/linkedin.svg">
+            </a>
+          </div>
+
+        </div
       </div>
     </section>
 

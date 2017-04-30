@@ -56,63 +56,54 @@
       <div class="container">
         <div class="row">
 
-          <div class="work col-lg-4">
-
-            <figure class="non-touch" id="willChange">
-              <!--icon-->
-              <figcaption>
-                <div>
-                  <h1>Snickeri tema.</h1><span>Gjort på ren kärlek</span>
-                  <a href="portfolio/byggbroder" class="btn btn-primary">Mer info</a>
-                </div>
-              </figcaption>
-              <img src="./assets/img/byggbroder.png" alt=""/>
-              </figure>
-
-          </div>
-
-
-          <div class="work col-lg-4">
-            <figure class="non-touch" id="willChange">
-              <!--icon-->
-              <figcaption>
-                <div>
-                  <h1>Card</h1><span>Enkel och ren design</span>
-                  <a href="http://codepen.io/Devpaps/pen/WowgWj" class="btn btn-primary">Mer info</a>
-                </div>
-              </figcaption>
-              <img src="./assets/img/projekt-ett.png" alt=""/>
-              </figure>
-          </div>
-
-
-          <div class="work col-lg-4">
-            <figure class="non-touch" id="willChange">
-              <!--icon-->
-              <figcaption>
-                <div>
-                  <h1>Card</h1><span>Koncept på ett inlogg</span>
-                  <a href="http://codepen.io/Devpaps/pen/ENgMNq" class="btn btn-primary">Mer info</a>
-                </div>
-              </figcaption>
-              <img src="./assets/img/projekt-tva.png" alt=""/>
-              </figure>
-          </div>
-
-        </div>
-        <div class="row">
-            <div class="work col-lg-4">
-              <figure class="non-touch" id="willChange">
-                <!--icon-->
-                <figcaption>
-                  <div>
-                    <h1>Titta här</h1><span>Här fyller jag i senare</span>
-                    <a href="#" class="btn btn-primary">Mer info</a>
-                  </div>
+          <div class="projekt work col-lg-4">
+            <figure id="will-change">
+              <img src="./assets/img/projekt-ett.png" alt="Koncept-bild">
+                <figcaption id="will-change">
+                  <h3>Koncept</h3>
+                  <span>Ett exempel på banner</span>
+                  <a href="http://codepen.io/Devpaps/pen/WowgWj">Projektet</a>
                 </figcaption>
-                <img src="./assets/img/projekt-tre.png" alt=""/>
-                </figure>
-            </div>
+            </figure>
+          </div>
+
+
+          <div class="projekt work col-lg-4">
+            <figure id="will-change">
+              <img id="will-change"src="./assets/img/projekt-tva.png" alt="Koncept-bild">
+                <figcaption id="will-change">
+                  <h3>Koncept</h3>
+                  <span>En fiktiv login-sida</span>
+                  <a href="http://codepen.io/Devpaps/pen/ENgMNq">Projektet</a>
+                </figcaption>
+            </figure>
+          </div>
+
+
+          <div class="projekt work col-lg-4">
+            <figure id="will-change">
+              <img src="./assets/img/projekt-tre.png" alt="reklam">
+                <figcaption id="will-change">
+                  <h3>Hemsida?</h3>
+                  <span>Kontakta mig redan idag</span>
+                  <a href="kontakt">Maila</a>
+                </figcaption>
+            </figure>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="projekt work col-lg-4">
+            <figure id="will-change">
+              <img src="./assets/img/byggbroder.png" alt="Byggbröder-projekt">
+                <figcaption id="will-change">
+                  <h3>Byggbröder</h3>
+                  <span>Design &amp; Utveckling</span>
+                  <a href="./portfolio/byggbroder">Projektet</a>
+                </figcaption>
+            </figure>
+          </div>
         </div>
 
 
@@ -126,12 +117,56 @@
 
 
     <section class="container footer">
-      <div class="row col-lg-6 col-xs-12">
-        <strong><a href="/">Hem</a> <a href="om-mig">Om mig</a> <a href="projekt">Projekt</a> <a href="tjänster">Tjänster</a> <a href="kontakt">Kontakt</a></strong>
-      </div>
       <hr class="row">
-      <div class="row col-lg-12 copyright">
-        <strong>© 2017 –<a href="http://larsjönsson.se">Lars Jönsson</a></strong>
+      <div class="container">
+      <div class="row col-lg-12">
+
+        <strong>
+        <a href="/">Hem</a>
+        <a href="om-mig">Om mig</a>
+        <a href="projekt">Projekt</a>
+        <a href="tjänster">Tjänster</a>
+        <a href="kontakt">Kontakt</a>
+        </strong>
+      </div>
+      </div>
+      <div class="container">
+
+
+      <div class="row copyright">
+
+        <div class="col-lg-6 col-sm-6">
+          <strong>&#169; 2017 –<a href="http://larsjönsson.se"> Lars Jönsson</a></strong>
+        </div>
+
+
+        <div class="links col-lg-6 col-sm-6">
+
+          <div class="twitter bottom">
+            <a href="https://twitter.com/devpaps">
+              <img alt="Twitter-icon" src="./assets/img/twitter.svg">
+            </a>
+          </div>
+
+          <div class="github bottom">
+            <a href="https://github.com/devpaps">
+              <img alt="Github-icon" src="./assets/img/github.svg">
+            </a>
+          </div>
+
+          <div class="codepen bottom">
+            <a href="http://codepen.io/devpaps/">
+              <img alt="Codepen-icon" src="./assets/img/codepen.svg">
+            </a>
+          </div>
+
+          <div class="linkedin bottom">
+            <a href="https://se.linkedin.com/in/lars-j%C3%B6nsson-43b3646a">
+              <img alt="LinkedIn-icon" src="./assets/img/linkedin.svg">
+            </a>
+          </div>
+
+        </div
       </div>
     </section>
 

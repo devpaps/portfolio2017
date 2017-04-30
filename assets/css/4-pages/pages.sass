@@ -101,8 +101,10 @@
   background-size: cover
   @media (min-width: 1681px)
     background: linear-gradient(to bottom, rgba(255,255,255,0) 80%, rgba(255,255,255,1) 100%), url("/assets/img/outdoors.jpg") no-repeat
+    background-size: cover
   @media (max-width: 414px)
     background: linear-gradient(to bottom, rgba(255,255,255,0) 50%, rgba(255,255,255,1) 100%), url("/assets/img/outdoors.jpg") no-repeat
+    background-size: cover
   .row
     @media (min-width: 1681px)
       margin-top: 6em
@@ -213,44 +215,19 @@
 
 
 
-
-
-/****************Parallax****************/
-
-/*.parallax
-  .image-box
-    position: relative
-    height: 300px
-    width: auto
-    background: url("/assets/img/code.jpg")
-    background-size: cover
-    background-attachment: fixed
-    overflow: hidden
-    @media (max-width: 768px)
-      background-attachment: scroll
-    .parallax-text
-      position: absolute
-      top: 50%
-      margin-top: -47px
-      width: 100%
-      text-align: center
-      .ptext
-        color: #fff*/
-
-
-
-
-
 /****************Footer****************/
 
 .footer
   margin-top: 5rem
   a
     font-size: 1em
+    padding-left: 1em
+    &:nth-child(1)
+      padding-left: 0em
     @media (max-width: 320px)
       font-size: 0.9em
-    &:nth-child(-n+5)
-      padding-left: 1rem
+      &:nth-child(-n+5)
+        padding-left: 1rem
   @media (max-width: 450px)
     margin-top: 0px
   .col-lg-6
@@ -263,9 +240,19 @@
   hr.row
     margin-top: 5rem
   .copyright
-    margin-bottom: 3rem
+    margin: 2em 0 2em
+    @media (max-width: 545px)
     a
       font-size: 13px
+  .links
+    display: flex
+    flex-wrap: wrap
+    justify-content: flex-end
+    @media (max-width: 414px)
+      justify-content: center
+      margin-top: 4rem
+    a
+      padding-left: 0
 
 @media (max-width: 420px)
   .button
