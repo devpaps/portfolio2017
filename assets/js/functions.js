@@ -1,13 +1,12 @@
-
 function initMap() {
     var a = {
             lat: 63.1741871,
             lng: 14.5595061
         },
         b = new google.maps.Map(document.getElementById("map"), {
-            zoom: 10,
+            zoom: 9,
             center: a,
-            disableDefaultUI: !0,
+            disableDefaultUI: false,
             scrollwheel: !1
         });
     new google.maps.Marker({
@@ -15,9 +14,11 @@ function initMap() {
         map: b,
         icon: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png"
     }), $(document).width() > 768
+
+    
 }
 $(document).ready(function() {
-    $("body").scrollspy({
+        $("body").scrollspy({
         target: ".navbar",
         offset: 50
     }), $("#mySidenav a").on("click", function(a) {
@@ -69,10 +70,10 @@ function removeHint() {
 
 
 
-
+//Parallax på .hero-img
 var pContainerHeight = $('.hero-img').height();
 
-$(window).scroll(function(){
+$(window).on('scroll', (function(){
 
   var wScroll = $(this).scrollTop();
 
@@ -87,9 +88,9 @@ $(window).scroll(function(){
     });
 
   }
-});
+}));
 
-
+//När jag scrollar ner, box-shadow kommer upp i naven
 $(document).on('scroll', function(){
     if
     ($(document).scrollTop() > 100 ) {

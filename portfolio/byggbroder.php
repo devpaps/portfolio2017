@@ -82,7 +82,7 @@
                 <p>Bootstrap</p>
               </li>
             </ul>
-            <a href="https://devpaps.github.io/byggbroder/" class="btn btn-primary info-btn">varmlandsbyggbröder.se</a>
+            <a href="https://devpaps.github.io/byggbroder/" class="btn btn-primary info-btn"><img src="/portfolio2017/assets/img/unlink.svg" alt="" class="link-icon">varmlandsbyggbröder.se</a>
           </div>
         </div>
 
@@ -102,10 +102,10 @@
 
         <strong>
         <a href="/">Hem</a>
-        <a href="om-mig">Om mig</a>
-        <a href="projekt">Projekt</a>
-        <a href="tjänster">Tjänster</a>
-        <a href="kontakt">Kontakt</a>
+        <a href="../om-mig">Om mig</a>
+        <a href="../projekt">Projekt</a>
+        <a href="../tjänster">Tjänster</a>
+        <a href="../kontakt">Kontakt</a>
         </strong>
       </div>
       </div>
@@ -123,25 +123,25 @@
 
           <div class="twitter bottom">
             <a href="https://twitter.com/devpaps">
-              <img alt="Twitter-icon" src="./assets/img/twitter.svg">
+              <img alt="Twitter-icon" src="../assets/img/twitter.svg">
             </a>
           </div>
 
           <div class="github bottom">
             <a href="https://github.com/devpaps">
-              <img alt="Github-icon" src="./assets/img/github.svg">
+              <img alt="Github-icon" src="../assets/img/github.svg">
             </a>
           </div>
 
           <div class="codepen bottom">
             <a href="http://codepen.io/devpaps/">
-              <img alt="Codepen-icon" src="./assets/img/codepen.svg">
+              <img alt="Codepen-icon" src="../assets/img/codepen.svg">
             </a>
           </div>
 
           <div class="linkedin bottom">
             <a href="https://se.linkedin.com/in/lars-j%C3%B6nsson-43b3646a">
-              <img alt="LinkedIn-icon" src="./assets/img/linkedin.svg">
+              <img alt="LinkedIn-icon" src="../assets/img/linkedin.svg">
             </a>
           </div>
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" baseProfile="basic" id="Layer_1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60.7 58.6"
+	 xml:space="preserve">
+<g id="XMLID_53_">
+	<radialGradient id="XMLID_58_" cx="20.1172" cy="29.2886" r="25.1249" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#F2F0E6"/>
+	</radialGradient>
+	<path id="XMLID_55_" fill="url(#XMLID_58_)" d="M37.1,0H3.2C1.4,0,0,1.4,0,3.2v52.2c0,1.8,1.4,3.2,3.2,3.2h33.9
+		c1.8,0,3.2-1.4,3.2-3.2V3.2C40.2,1.4,38.8,0,37.1,0z M20.1,57c-0.9,0-1.6-0.7-1.6-1.6c0-0.9,0.7-1.6,1.6-1.6c0.9,0,1.6,0.7,1.6,1.6
+		C21.8,56.3,21,57,20.1,57z M36.7,52.3H3.6V3.6h33.1V52.3z"/>
+	<radialGradient id="XMLID_59_" cx="52.8699" cy="44.0044" r="11.71" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#F2F0E6"/>
+	</radialGradient>
+	<path id="XMLID_54_" fill="url(#XMLID_59_)" d="M59.2,29.4H46.6c-0.9,0-1.6,0.7-1.6,1.6v26c0,0.9,0.7,1.6,1.6,1.6h12.6
+		c0.9,0,1.6-0.7,1.6-1.6V31C60.7,30.1,60,29.4,59.2,29.4z M52.9,57.8c-0.5,0-0.8-0.4-0.8-0.8c0-0.5,0.4-0.8,0.8-0.8
+		c0.5,0,0.8,0.4,0.8,0.8C53.7,57.4,53.3,57.8,52.9,57.8z M59,31.2v24.2H46.8V31.2"/>
+</g>
+</svg>
