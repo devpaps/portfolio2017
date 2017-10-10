@@ -1,0 +1,22 @@
+{
+  "name": "portfolio2017",
+  "version": "1.0.0",
+  "description": "My new portfolio, made with Bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devpaps/portfolio2017.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devpaps/portfolio2017/issues"
+  },
+  "homepage": "https://github.com/devpaps/portfolio2017#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
