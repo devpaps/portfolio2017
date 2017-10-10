@@ -10,13 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/devpaps/portfolio2017.git"
   },
-  "author": "",
+  "author": "Lars Jönsson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/devpaps/portfolio2017/issues"
   },
   "homepage": "https://github.com/devpaps/portfolio2017#readme",
   "devDependencies": {
-    "browser-sync": "^2.18.13"
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
   }
 }
